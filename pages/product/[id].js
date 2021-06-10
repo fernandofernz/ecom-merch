@@ -67,7 +67,7 @@ export default function Product(props) {
                 }}
                 {...rest}
             />
-            <Parallax small filter image={require("assets/img/mava-landing.jpg")} />
+            <Parallax small filter image={require("assets/img/beach1.jpg")} />
             <div className={classNames(classes.main, classes.mainRaised)}>
                 <div>
                     <div className={classes.container}>
