@@ -22,7 +22,6 @@ import CardFooter from "components/Card/CardFooter.js";
 import styles from "assets/jss/nextjs-material-kit/pages/hisProductsPage.js";
 
 // Sections for this page
-import WarehouseSection from 'pages-sections/Warehouse-Sections/ProductSection.js';
 import CardHeader from "components/Card/CardHeader.js";
 
 import { useEffect, useState } from 'react';
