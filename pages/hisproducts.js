@@ -73,7 +73,7 @@ export default function hisProductsPage(props) {
                 // }}
                 {...rest}
             />
-            <Parallax filter responsive image={require("assets/img/beach1.jpg")}>
+            <Parallax filter responsive image={require("../assets/img/beach1.jpg")}>
                 <div className={classes.container}>
                     <GridContainer>
                         <GridItem xs={12} sm={12} md={6}>

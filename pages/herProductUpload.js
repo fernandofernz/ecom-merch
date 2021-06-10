@@ -26,7 +26,7 @@ import CustomInput from "components/CustomInput/CustomInput.js";
 
 import styles from "assets/jss/nextjs-material-kit/pages/loginPage.js";
 
-import image from "assets/img/beach3.jpg";
+import image from "../assets/img/beach3.jpg";
 
 import fire from '../config/fire-config';
 

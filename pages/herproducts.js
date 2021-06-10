@@ -22,7 +22,6 @@ import CardFooter from "components/Card/CardFooter.js";
 import styles from "assets/jss/nextjs-material-kit/pages/herProductsPage.js";
 
 // Sections for this page
-import WarehouseSection from 'pages-sections/Warehouse-Sections/ProductSection.js';
 import CardHeader from "components/Card/CardHeader.js";
 
 import { useEffect, useState } from 'react';
@@ -74,7 +73,7 @@ export default function herProductsPage(props) {
                 // }}
                 {...rest}
             />
-            <Parallax filter responsive image={require("assets/img/beach1.jpg")}>
+            <Parallax filter responsive image={require("../assets/img/beach1.jpg")}>
                 <div className={classes.container}>
                     <GridContainer>
                         <GridItem xs={12} sm={12} md={6}>
