@@ -30,25 +30,14 @@ import CustomInput from "components/CustomInput/CustomInput.js";
 import InputAdornment from "@material-ui/core/InputAdornment";
 
 import profile from "assets/img/faces/christian.jpg";
-import beach1 from 'assets/img/beach1.jpg';
+import beach1 from 'assets/img/beach3.jpg';
 import beach2 from 'assets/img/beach2.jpg';
 import beach3 from 'assets/img/beach3.jpg';
 
 import merch2 from 'assets/img/merch2.jpg';
 import merch3 from 'assets/img/merch3.jpg';
 
-import studio1 from "assets/img/examples/studio-1.jpg";
-import studio2 from "assets/img/examples/studio-2.jpg";
-import studio3 from "assets/img/examples/studio-3.jpg";
-import studio4 from "assets/img/examples/studio-4.jpg";
-import studio5 from "assets/img/examples/studio-5.jpg";
-import work1 from "assets/img/examples/olu-eletu.jpg";
-import work2 from "assets/img/examples/clem-onojeghuo.jpg";
-import work3 from "assets/img/examples/cynthia-del-rio.jpg";
-import work4 from "assets/img/examples/mariya-georgieva.jpg";
-import work5 from "assets/img/examples/clem-onojegaw.jpg";
-
-import image from "../assets/img/beach1.jpg";
+// import image from "../assets/img/beach1.jpg";
 import Link from 'next/link';
 
 import styles from "assets/jss/nextjs-material-kit/pages/beachStop.js";
@@ -99,7 +88,7 @@ export default function ProfilePage(props) {
             <div
                 className={classes.pageHeader}
                 style={{
-                    backgroundImage: "url(" + image + ")",
+                    backgroundImage: "url(" + beach1 + ")",
                     backgroundSize: "cover",
                     backgroundPosition: "top center"
                 }}
