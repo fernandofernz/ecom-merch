@@ -19,7 +19,7 @@ import Card from "components/Card/Card.js";
 import CardBody from "components/Card/CardBody.js";
 import CardFooter from "components/Card/CardFooter.js";
 
-import styles from "../assets/jss/nextjs-material-kit/pages/hisProductsPage.js";
+import styles from "/assets/jss/nextjs-material-kit/pages/hisProductsPage.js";
 
 // Sections for this page
 import CardHeader from "components/Card/CardHeader.js";
