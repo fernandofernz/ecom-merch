@@ -1,7 +1,7 @@
 module.exports =
 /******/ (function(modules) { // webpackBootstrap
 /******/ 	// The module cache
-/******/ 	var installedModules = require('../ssr-module-cache.js');
+/******/ 	var installedModules = require('../../ssr-module-cache.js');
 /******/
 /******/ 	// The require function
 /******/ 	function __webpack_require__(moduleId) {
@@ -88,7 +88,7 @@ module.exports =
 /******/
 /******/
 /******/ 	// Load entry module and return exports
-/******/ 	return __webpack_require__(__webpack_require__.s = 3);
+/******/ 	return __webpack_require__(__webpack_require__.s = 9);
 /******/ })
 /************************************************************************/
 /******/ ({
@@ -283,14 +283,6 @@ function CardHeader(props) {
 
 /***/ }),
 
-/***/ 3:
-/***/ (function(module, exports, __webpack_require__) {
-
-module.exports = __webpack_require__("ntQz");
-
-
-/***/ }),
-
 /***/ "31Yn":
 /***/ (function(module, exports) {
 
@@ -396,81 +388,6 @@ module.exports = require("@material-ui/core/AppBar");
 /***/ (function(module, exports) {
 
 module.exports = require("@material-ui/icons/Menu");
-
-/***/ }),
-
-/***/ "5LSk":
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-
-// EXPORTS
-__webpack_require__.d(__webpack_exports__, "a", function() { return /* binding */ CardFooter; });
-
-// EXTERNAL MODULE: external "react"
-var external_react_ = __webpack_require__("cDcd");
-var external_react_default = /*#__PURE__*/__webpack_require__.n(external_react_);
-
-// EXTERNAL MODULE: external "classnames"
-var external_classnames_ = __webpack_require__("K2gz");
-var external_classnames_default = /*#__PURE__*/__webpack_require__.n(external_classnames_);
-
-// EXTERNAL MODULE: external "@material-ui/core/styles"
-var styles_ = __webpack_require__("9Pu4");
-
-// CONCATENATED MODULE: ./assets/jss/nextjs-material-kit/components/cardFooterStyle.js
-const cardFooterStyle = {
-  cardFooter: {
-    display: "flex",
-    alignItems: "center",
-    backgroundColor: "transparent",
-    padding: "0.9375rem 1.875rem"
-  }
-};
-/* harmony default export */ var components_cardFooterStyle = (cardFooterStyle);
-// CONCATENATED MODULE: ./components/Card/CardFooter.js
-var __jsx = external_react_default.a.createElement;
-
-function _extends() { _extends = Object.assign || function (target) { for (var i = 1; i < arguments.length; i++) { var source = arguments[i]; for (var key in source) { if (Object.prototype.hasOwnProperty.call(source, key)) { target[key] = source[key]; } } } return target; }; return _extends.apply(this, arguments); }
-
-function _objectWithoutProperties(source, excluded) { if (source == null) return {}; var target = _objectWithoutPropertiesLoose(source, excluded); var key, i; if (Object.getOwnPropertySymbols) { var sourceSymbolKeys = Object.getOwnPropertySymbols(source); for (i = 0; i < sourceSymbolKeys.length; i++) { key = sourceSymbolKeys[i]; if (excluded.indexOf(key) >= 0) continue; if (!Object.prototype.propertyIsEnumerable.call(source, key)) continue; target[key] = source[key]; } } return target; }
-
-function _objectWithoutPropertiesLoose(source, excluded) { if (source == null) return {}; var target = {}; var sourceKeys = Object.keys(source); var key, i; for (i = 0; i < sourceKeys.length; i++) { key = sourceKeys[i]; if (excluded.indexOf(key) >= 0) continue; target[key] = source[key]; } return target; }
-
- // nodejs library that concatenates classes
-
- // nodejs library to set properties for components
-
-// @material-ui/core components
- // @material-ui/icons
-// core components
-
-
-const useStyles = Object(styles_["makeStyles"])(components_cardFooterStyle);
-function CardFooter(props) {
-  const classes = useStyles();
-
-  const {
-    className,
-    children
-  } = props,
-        rest = _objectWithoutProperties(props, ["className", "children"]);
-
-  const cardFooterClasses = external_classnames_default()({
-    [classes.cardFooter]: true,
-    [className]: className !== undefined
-  });
-  return __jsx("div", _extends({
-    className: cardFooterClasses
-  }, rest), children);
-}
-
-/***/ }),
-
-/***/ "6Cna":
-/***/ (function(module, exports) {
-
-module.exports = "/_next/static/images/beach3-b6243e148d2eaffe7cfd2d18ecaed629.jpg";
 
 /***/ }),
 
@@ -1703,6 +1620,14 @@ Header.defaultProp = {
 
 /***/ }),
 
+/***/ 9:
+/***/ (function(module, exports, __webpack_require__) {
+
+module.exports = __webpack_require__("PZbu");
+
+
+/***/ }),
+
 /***/ "9BzL":
 /***/ (function(module, exports) {
 
@@ -1714,96 +1639,6 @@ module.exports = "/_next/static/images/studio-5-ef5c30ea69b7ad740ee6221782c73741
 /***/ (function(module, exports) {
 
 module.exports = require("@material-ui/core/styles");
-
-/***/ }),
-
-/***/ "A2So":
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-
-// EXPORTS
-__webpack_require__.d(__webpack_exports__, "a", function() { return /* binding */ Card; });
-
-// EXTERNAL MODULE: external "react"
-var external_react_ = __webpack_require__("cDcd");
-var external_react_default = /*#__PURE__*/__webpack_require__.n(external_react_);
-
-// EXTERNAL MODULE: external "classnames"
-var external_classnames_ = __webpack_require__("K2gz");
-var external_classnames_default = /*#__PURE__*/__webpack_require__.n(external_classnames_);
-
-// EXTERNAL MODULE: external "@material-ui/core/styles"
-var styles_ = __webpack_require__("9Pu4");
-
-// CONCATENATED MODULE: ./assets/jss/nextjs-material-kit/components/cardStyle.js
-const cardStyle = {
-  card: {
-    border: "0",
-    marginBottom: "30px",
-    marginTop: "30px",
-    borderRadius: "6px",
-    color: "rgba(0, 0, 0, 0.87)",
-    background: "#fff",
-    width: "100%",
-    boxShadow: "0 2px 2px 0 rgba(0, 0, 0, 0.14), 0 3px 1px -2px rgba(0, 0, 0, 0.2), 0 1px 5px 0 rgba(0, 0, 0, 0.12)",
-    position: "relative",
-    display: "flex",
-    flexDirection: "column",
-    minWidth: "0",
-    wordWrap: "break-word",
-    fontSize: ".875rem",
-    transition: "all 300ms linear"
-  },
-  cardPlain: {
-    background: "transparent",
-    boxShadow: "none"
-  },
-  cardCarousel: {
-    overflow: "hidden"
-  }
-};
-/* harmony default export */ var components_cardStyle = (cardStyle);
-// CONCATENATED MODULE: ./components/Card/Card.js
-var __jsx = external_react_default.a.createElement;
-
-function _extends() { _extends = Object.assign || function (target) { for (var i = 1; i < arguments.length; i++) { var source = arguments[i]; for (var key in source) { if (Object.prototype.hasOwnProperty.call(source, key)) { target[key] = source[key]; } } } return target; }; return _extends.apply(this, arguments); }
-
-function _objectWithoutProperties(source, excluded) { if (source == null) return {}; var target = _objectWithoutPropertiesLoose(source, excluded); var key, i; if (Object.getOwnPropertySymbols) { var sourceSymbolKeys = Object.getOwnPropertySymbols(source); for (i = 0; i < sourceSymbolKeys.length; i++) { key = sourceSymbolKeys[i]; if (excluded.indexOf(key) >= 0) continue; if (!Object.prototype.propertyIsEnumerable.call(source, key)) continue; target[key] = source[key]; } } return target; }
-
-function _objectWithoutPropertiesLoose(source, excluded) { if (source == null) return {}; var target = {}; var sourceKeys = Object.keys(source); var key, i; for (i = 0; i < sourceKeys.length; i++) { key = sourceKeys[i]; if (excluded.indexOf(key) >= 0) continue; target[key] = source[key]; } return target; }
-
- // nodejs library that concatenates classes
-
- // nodejs library to set properties for components
-
-// @material-ui/core components
- // @material-ui/icons
-// core components
-
-
-const useStyles = Object(styles_["makeStyles"])(components_cardStyle);
-function Card(props) {
-  const classes = useStyles();
-
-  const {
-    className,
-    children,
-    plain,
-    carousel
-  } = props,
-        rest = _objectWithoutProperties(props, ["className", "children", "plain", "carousel"]);
-
-  const cardClasses = external_classnames_default()({
-    [classes.card]: true,
-    [classes.cardPlain]: plain,
-    [classes.cardCarousel]: carousel,
-    [className]: className !== undefined
-  });
-  return __jsx("div", _extends({
-    className: cardClasses
-  }, rest), children);
-}
 
 /***/ }),
 
@@ -2498,13 +2333,6 @@ const RegularButton = /*#__PURE__*/external_react_default.a.forwardRef((props, r
 
 /***/ }),
 
-/***/ "LVbA":
-/***/ (function(module, exports) {
-
-module.exports = require("@material-ui/icons/MonetizationOn");
-
-/***/ }),
-
 /***/ "Ms0O":
 /***/ (function(module, exports) {
 
@@ -2804,6 +2632,347 @@ module.exports = require("next/dist/next-server/lib/router-context.js");
 
 /***/ }),
 
+/***/ "PZbu":
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+// ESM COMPAT FLAG
+__webpack_require__.r(__webpack_exports__);
+
+// EXPORTS
+__webpack_require__.d(__webpack_exports__, "default", function() { return /* binding */ Product; });
+__webpack_require__.d(__webpack_exports__, "getServerSideProps", function() { return /* binding */ getServerSideProps; });
+
+// EXTERNAL MODULE: external "react"
+var external_react_ = __webpack_require__("cDcd");
+var external_react_default = /*#__PURE__*/__webpack_require__.n(external_react_);
+
+// EXTERNAL MODULE: external "classnames"
+var external_classnames_ = __webpack_require__("K2gz");
+var external_classnames_default = /*#__PURE__*/__webpack_require__.n(external_classnames_);
+
+// EXTERNAL MODULE: external "@material-ui/core/styles"
+var styles_ = __webpack_require__("9Pu4");
+
+// EXTERNAL MODULE: external "@material-ui/icons/Camera"
+var Camera_ = __webpack_require__("uYRW");
+var Camera_default = /*#__PURE__*/__webpack_require__.n(Camera_);
+
+// EXTERNAL MODULE: external "@material-ui/icons/Palette"
+var Palette_ = __webpack_require__("xljU");
+
+// EXTERNAL MODULE: external "@material-ui/icons/Favorite"
+var Favorite_ = __webpack_require__("Fm7H");
+
+// EXTERNAL MODULE: external "@material-ui/icons/ArrowDropDownCircle"
+var ArrowDropDownCircle_ = __webpack_require__("ZKt7");
+
+// EXTERNAL MODULE: external "@material-ui/icons/CloudUploadSharp"
+var CloudUploadSharp_ = __webpack_require__("m/Cw");
+
+// EXTERNAL MODULE: ./components/Header/Header.js + 1 modules
+var Header = __webpack_require__("8x5e");
+
+// EXTERNAL MODULE: ./components/Footer/Footer.js + 1 modules
+var Footer = __webpack_require__("HXcA");
+
+// EXTERNAL MODULE: ./components/CustomButtons/Button.js + 1 modules
+var Button = __webpack_require__("Kg+a");
+
+// EXTERNAL MODULE: ./components/Grid/GridContainer.js
+var GridContainer = __webpack_require__("mtPR");
+
+// EXTERNAL MODULE: ./components/Grid/GridItem.js
+var GridItem = __webpack_require__("i4t8");
+
+// EXTERNAL MODULE: ./components/Header/HeaderLinks.js + 4 modules
+var HeaderLinks = __webpack_require__("8E12");
+
+// EXTERNAL MODULE: ./components/NavPills/NavPills.js + 1 modules
+var NavPills = __webpack_require__("SuH/");
+
+// EXTERNAL MODULE: ./components/Parallax/Parallax.js + 1 modules
+var Parallax = __webpack_require__("Z2Lm");
+
+// EXTERNAL MODULE: ./components/Card/CardHeader.js + 1 modules
+var CardHeader = __webpack_require__("2zww");
+
+// EXTERNAL MODULE: ./assets/img/faces/christian.jpg
+var christian = __webpack_require__("skcn");
+
+// EXTERNAL MODULE: ./assets/img/examples/studio-1.jpg
+var studio_1 = __webpack_require__("zEVw");
+
+// EXTERNAL MODULE: ./assets/img/examples/studio-2.jpg
+var studio_2 = __webpack_require__("xPFQ");
+var studio_2_default = /*#__PURE__*/__webpack_require__.n(studio_2);
+
+// EXTERNAL MODULE: ./assets/img/examples/studio-3.jpg
+var studio_3 = __webpack_require__("Ww66");
+
+// EXTERNAL MODULE: ./assets/img/examples/studio-4.jpg
+var studio_4 = __webpack_require__("DhJs");
+var studio_4_default = /*#__PURE__*/__webpack_require__.n(studio_4);
+
+// EXTERNAL MODULE: ./assets/img/examples/studio-5.jpg
+var studio_5 = __webpack_require__("9BzL");
+var studio_5_default = /*#__PURE__*/__webpack_require__.n(studio_5);
+
+// EXTERNAL MODULE: ./assets/img/examples/olu-eletu.jpg
+var olu_eletu = __webpack_require__("wy5I");
+
+// EXTERNAL MODULE: ./assets/img/examples/clem-onojeghuo.jpg
+var clem_onojeghuo = __webpack_require__("k4XW");
+
+// EXTERNAL MODULE: ./assets/img/examples/cynthia-del-rio.jpg
+var cynthia_del_rio = __webpack_require__("vE/t");
+
+// EXTERNAL MODULE: ./assets/img/examples/mariya-georgieva.jpg
+var mariya_georgieva = __webpack_require__("1YMw");
+
+// EXTERNAL MODULE: ./assets/img/examples/clem-onojegaw.jpg
+var clem_onojegaw = __webpack_require__("x0Xe");
+
+// EXTERNAL MODULE: ./assets/jss/nextjs-material-kit.js
+var nextjs_material_kit = __webpack_require__("eDSW");
+
+// EXTERNAL MODULE: ./assets/jss/nextjs-material-kit/imagesStyles.js
+var imagesStyles = __webpack_require__("Ilpk");
+
+// CONCATENATED MODULE: ./assets/jss/nextjs-material-kit/pages/profilePage.js
+function ownKeys(object, enumerableOnly) { var keys = Object.keys(object); if (Object.getOwnPropertySymbols) { var symbols = Object.getOwnPropertySymbols(object); if (enumerableOnly) symbols = symbols.filter(function (sym) { return Object.getOwnPropertyDescriptor(object, sym).enumerable; }); keys.push.apply(keys, symbols); } return keys; }
+
+function _objectSpread(target) { for (var i = 1; i < arguments.length; i++) { var source = arguments[i] != null ? arguments[i] : {}; if (i % 2) { ownKeys(Object(source), true).forEach(function (key) { _defineProperty(target, key, source[key]); }); } else if (Object.getOwnPropertyDescriptors) { Object.defineProperties(target, Object.getOwnPropertyDescriptors(source)); } else { ownKeys(Object(source)).forEach(function (key) { Object.defineProperty(target, key, Object.getOwnPropertyDescriptor(source, key)); }); } } return target; }
+
+function _defineProperty(obj, key, value) { if (key in obj) { Object.defineProperty(obj, key, { value: value, enumerable: true, configurable: true, writable: true }); } else { obj[key] = value; } return obj; }
+
+
+
+
+const profilePageStyle = _objectSpread(_objectSpread({
+  container: nextjs_material_kit["c" /* container */],
+  profile: {
+    textAlign: "center",
+    "& img": {
+      maxWidth: "500px",
+      width: "300px",
+      margin: "0 auto",
+      transform: "translate3d(0, -10%, 0)"
+    }
+  },
+  description: {
+    margin: "1.071rem auto 0",
+    maxWidth: "600px",
+    color: "#999",
+    textAlign: "center !important"
+  },
+  name: {
+    marginTop: "-80px"
+  }
+}, imagesStyles["a" /* default */]), {}, {
+  main: {
+    background: "#FFFFFF",
+    position: "relative",
+    zIndex: "3"
+  },
+  mainRaised: {
+    margin: "-60px 30px 0px",
+    borderRadius: "6px",
+    boxShadow: "0 16px 24px 2px rgba(0, 0, 0, 0.14), 0 6px 30px 5px rgba(0, 0, 0, 0.12), 0 8px 10px -5px rgba(0, 0, 0, 0.2)"
+  },
+  title: _objectSpread(_objectSpread({}, nextjs_material_kit["v" /* title */]), {}, {
+    display: "inline-block",
+    position: "relative",
+    marginTop: "20px",
+    minHeight: "32px",
+    textDecoration: "none"
+  }),
+  socials: {
+    marginTop: "0",
+    width: "100%",
+    transform: "none",
+    left: "0",
+    top: "0",
+    height: "100%",
+    lineHeight: "41px",
+    fontSize: "20px",
+    color: "#999"
+  },
+  cardHeader: {
+    width: "auto",
+    textAlign: "center",
+    marginLeft: "20px",
+    marginRight: "20px",
+    marginTop: "-100px",
+    padding: "20px 0",
+    marginBottom: "15px"
+  },
+  navWrapper: {
+    margin: "20px auto 50px auto",
+    textAlign: "center"
+  }
+});
+
+/* harmony default export */ var profilePage = (profilePageStyle);
+// EXTERNAL MODULE: ./config/fire-config.js
+var fire_config = __webpack_require__("z104");
+
+// EXTERNAL MODULE: ./node_modules/next/link.js
+var next_link = __webpack_require__("YFqc");
+
+// CONCATENATED MODULE: ./pages/product/[id].js
+var __jsx = external_react_default.a.createElement;
+
+function _extends() { _extends = Object.assign || function (target) { for (var i = 1; i < arguments.length; i++) { var source = arguments[i]; for (var key in source) { if (Object.prototype.hasOwnProperty.call(source, key)) { target[key] = source[key]; } } } return target; }; return _extends.apply(this, arguments); }
+
+// [id].js Pages that begin with [ and end with ] are dynamic pages in Next.js
+ // nodejs library that concatenates classes
+
+ // @material-ui/core components
+
+ // @material-ui/icons
+
+
+
+
+
+ // core components
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+const useStyles = Object(styles_["makeStyles"])(profilePage);
+function Product(props) {
+  const classes = useStyles();
+  const rest = Object.assign({}, props);
+  const imageClasses = external_classnames_default()(classes.imgRaised, classes.imgFluid);
+  const productImageClasses = external_classnames_default()(classes.productImage);
+  const navImageClasses = external_classnames_default()(classes.imgRounded, classes.imgGallery);
+  return __jsx("div", null, __jsx(Header["a" /* default */], _extends({
+    color: "transparent",
+    brand: "MAVA",
+    rightLinks: __jsx(HeaderLinks["a" /* default */], null),
+    absolute: true,
+    changeColorOnScroll: {
+      height: 200,
+      color: "white"
+    }
+  }, rest)), __jsx(Parallax["a" /* default */], {
+    small: true,
+    filter: true,
+    image: __webpack_require__("ashd")
+  }), __jsx("div", {
+    className: external_classnames_default()(classes.main, classes.mainRaised)
+  }, __jsx("div", null, __jsx("div", {
+    className: classes.container
+  }, __jsx(GridContainer["a" /* default */], {
+    justify: "center"
+  }, __jsx(GridItem["a" /* default */], {
+    xs: 12,
+    sm: 12,
+    md: 6
+  }, __jsx("div", {
+    className: classes.profile
+  }, __jsx(CardHeader["a" /* default */], {
+    color: "primary",
+    className: classes.cardHeader
+  }, __jsx("img", {
+    src: props.productImage,
+    alt: "...",
+    className: productImageClasses
+  }), __jsx("div", {
+    className: classes.socialLine
+  })), __jsx("div", {
+    className: classes.name
+  }, __jsx("h3", {
+    className: classes.title
+  }, props.productName), __jsx("h6", null, "Price: ", props.productPrice))))), __jsx("div", {
+    className: classes.description
+  }, __jsx("p", null, props.productDescription)), __jsx(GridContainer["a" /* default */], {
+    justify: "center"
+  }, __jsx(GridItem["a" /* default */], {
+    xs: 12,
+    sm: 12,
+    md: 8,
+    className: classes.navWrapper
+  }, __jsx(NavPills["a" /* default */], {
+    alignCenter: true,
+    color: "primary",
+    tabs: [{
+      tabButton: "Gallery",
+      tabIcon: Camera_default.a,
+      tabContent: __jsx(GridContainer["a" /* default */], {
+        justify: "center"
+      }, __jsx(GridItem["a" /* default */], {
+        xs: 12,
+        sm: 12,
+        md: 4
+      }, __jsx("img", {
+        alt: "...",
+        src: props.productImage,
+        className: navImageClasses
+      }), __jsx("img", {
+        alt: "...",
+        src: studio_2_default.a,
+        className: navImageClasses
+      })), __jsx(GridItem["a" /* default */], {
+        xs: 12,
+        sm: 12,
+        md: 4
+      }, __jsx("img", {
+        alt: "...",
+        src: studio_5_default.a,
+        className: navImageClasses
+      }), __jsx("img", {
+        alt: "...",
+        src: studio_4_default.a,
+        className: navImageClasses
+      })))
+    }]
+  })))))), __jsx(Footer["a" /* default */], null));
+}
+const getServerSideProps = async ({
+  query
+}) => {
+  const content = {};
+  await fire_config["a" /* default */].firestore().collection('product').doc(query.id).get().then(result => {
+    content['productName'] = result.data().productName;
+    content['productDescription'] = result.data().productDescription;
+    content['productImage'] = result.data().productImage;
+    content['productPrice'] = result.data().productPrice;
+  });
+  return {
+    props: {
+      productName: content.productName,
+      productDescription: content.productDescription,
+      productImage: content.productImage,
+      productPrice: content.productPrice
+    }
+  };
+};
+
+/***/ }),
+
 /***/ "Q01v":
 /***/ (function(module, exports) {
 
@@ -3095,83 +3264,10 @@ NavPills.defaultProps = {
 
 /***/ }),
 
-/***/ "U4Md":
-/***/ (function(module, exports) {
-
-module.exports = require("@material-ui/icons/Description");
-
-/***/ }),
-
 /***/ "UhrY":
 /***/ (function(module, exports) {
 
 module.exports = require("next/dist/next-server/lib/router/utils/get-asset-path-from-route.js");
-
-/***/ }),
-
-/***/ "UsYt":
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-
-// EXPORTS
-__webpack_require__.d(__webpack_exports__, "a", function() { return /* binding */ CardBody; });
-
-// EXTERNAL MODULE: external "react"
-var external_react_ = __webpack_require__("cDcd");
-var external_react_default = /*#__PURE__*/__webpack_require__.n(external_react_);
-
-// EXTERNAL MODULE: external "classnames"
-var external_classnames_ = __webpack_require__("K2gz");
-var external_classnames_default = /*#__PURE__*/__webpack_require__.n(external_classnames_);
-
-// EXTERNAL MODULE: external "@material-ui/core/styles"
-var styles_ = __webpack_require__("9Pu4");
-
-// CONCATENATED MODULE: ./assets/jss/nextjs-material-kit/components/cardBodyStyle.js
-const cardBodyStyle = {
-  cardBody: {
-    padding: "0.9375rem 1.875rem",
-    flex: "1 1 auto"
-  }
-};
-/* harmony default export */ var components_cardBodyStyle = (cardBodyStyle);
-// CONCATENATED MODULE: ./components/Card/CardBody.js
-var __jsx = external_react_default.a.createElement;
-
-function _extends() { _extends = Object.assign || function (target) { for (var i = 1; i < arguments.length; i++) { var source = arguments[i]; for (var key in source) { if (Object.prototype.hasOwnProperty.call(source, key)) { target[key] = source[key]; } } } return target; }; return _extends.apply(this, arguments); }
-
-function _objectWithoutProperties(source, excluded) { if (source == null) return {}; var target = _objectWithoutPropertiesLoose(source, excluded); var key, i; if (Object.getOwnPropertySymbols) { var sourceSymbolKeys = Object.getOwnPropertySymbols(source); for (i = 0; i < sourceSymbolKeys.length; i++) { key = sourceSymbolKeys[i]; if (excluded.indexOf(key) >= 0) continue; if (!Object.prototype.propertyIsEnumerable.call(source, key)) continue; target[key] = source[key]; } } return target; }
-
-function _objectWithoutPropertiesLoose(source, excluded) { if (source == null) return {}; var target = {}; var sourceKeys = Object.keys(source); var key, i; for (i = 0; i < sourceKeys.length; i++) { key = sourceKeys[i]; if (excluded.indexOf(key) >= 0) continue; target[key] = source[key]; } return target; }
-
- // nodejs library that concatenates classes
-
- // nodejs library to set properties for components
-
-// @material-ui/core components
- // @material-ui/icons
-// core components
-
-
-const useStyles = Object(styles_["makeStyles"])(components_cardBodyStyle);
-function CardBody(props) {
-  const classes = useStyles();
-
-  const {
-    className,
-    children
-  } = props,
-        rest = _objectWithoutProperties(props, ["className", "children"]);
-
-  const cardBodyClasses = external_classnames_default()({
-    [classes.cardBody]: true,
-    [className]: className !== undefined
-  });
-  return __jsx("div", _extends({
-    className: cardBodyClasses
-  }, rest), children);
-}
 
 /***/ }),
 
@@ -3213,13 +3309,6 @@ function removePathTrailingSlash(path) {
 
 const normalizePathTrailingSlash =  false ? undefined : removePathTrailingSlash;
 exports.normalizePathTrailingSlash = normalizePathTrailingSlash;
-
-/***/ }),
-
-/***/ "XenW":
-/***/ (function(module, exports) {
-
-module.exports = "/_next/static/images/merch3-d7e23a091c182a51532daf2a4af45457.jpg";
 
 /***/ }),
 
@@ -3363,13 +3452,6 @@ function getRouteRegex(normalizedRoute) {
 
 /***/ }),
 
-/***/ "YVuZ":
-/***/ (function(module, exports) {
-
-module.exports = require("@material-ui/icons/CameraAlt");
-
-/***/ }),
-
 /***/ "Z2Lm":
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
@@ -3501,10 +3583,10 @@ function Parallax(props) {
 
 /***/ }),
 
-/***/ "a3Fa":
+/***/ "ZKt7":
 /***/ (function(module, exports) {
 
-module.exports = "/_next/static/images/beach2-1fcad9125e4e6b8757037ab92c2e17ad.jpg";
+module.exports = require("@material-ui/icons/ArrowDropDownCircle");
 
 /***/ }),
 
@@ -5384,13 +5466,6 @@ GridItem.defaultProps = {
 
 /***/ }),
 
-/***/ "j1q9":
-/***/ (function(module, exports) {
-
-module.exports = "/_next/static/images/merch2-bb3709049ba89c0930322e3ab12d69bb.jpg";
-
-/***/ }),
-
 /***/ "jD8W":
 /***/ (function(module, exports) {
 
@@ -5402,20 +5477,6 @@ module.exports = require("@material-ui/core/Popper");
 /***/ (function(module, exports) {
 
 module.exports = "/_next/static/images/clem-onojeghuo-216ef03c54bc13771c5e1b8d8f8d5926.jpg";
-
-/***/ }),
-
-/***/ "lWoh":
-/***/ (function(module, exports) {
-
-module.exports = require("@material-ui/core/FormControl");
-
-/***/ }),
-
-/***/ "lj8g":
-/***/ (function(module, exports) {
-
-module.exports = require("@material-ui/core/InputAdornment");
 
 /***/ }),
 
@@ -5645,416 +5706,6 @@ module.exports = require("@material-ui/icons/Delete");
 
 /***/ }),
 
-/***/ "ntQz":
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-// ESM COMPAT FLAG
-__webpack_require__.r(__webpack_exports__);
-
-// EXPORTS
-__webpack_require__.d(__webpack_exports__, "default", function() { return /* binding */ ProfilePage; });
-
-// EXTERNAL MODULE: external "react"
-var external_react_ = __webpack_require__("cDcd");
-var external_react_default = /*#__PURE__*/__webpack_require__.n(external_react_);
-
-// EXTERNAL MODULE: external "classnames"
-var external_classnames_ = __webpack_require__("K2gz");
-var external_classnames_default = /*#__PURE__*/__webpack_require__.n(external_classnames_);
-
-// EXTERNAL MODULE: external "@material-ui/core/styles"
-var styles_ = __webpack_require__("9Pu4");
-
-// EXTERNAL MODULE: external "@material-ui/icons/Camera"
-var Camera_ = __webpack_require__("uYRW");
-
-// EXTERNAL MODULE: external "@material-ui/icons/Palette"
-var Palette_ = __webpack_require__("xljU");
-
-// EXTERNAL MODULE: external "@material-ui/icons/Favorite"
-var Favorite_ = __webpack_require__("Fm7H");
-
-// EXTERNAL MODULE: external "@material-ui/icons/Create"
-var Create_ = __webpack_require__("rx4r");
-
-// EXTERNAL MODULE: external "@material-ui/icons/CloudUploadSharp"
-var CloudUploadSharp_ = __webpack_require__("m/Cw");
-
-// EXTERNAL MODULE: external "@material-ui/icons/CameraAlt"
-var CameraAlt_ = __webpack_require__("YVuZ");
-
-// EXTERNAL MODULE: external "@material-ui/icons/Description"
-var Description_ = __webpack_require__("U4Md");
-
-// EXTERNAL MODULE: external "@material-ui/icons/MonetizationOn"
-var MonetizationOn_ = __webpack_require__("LVbA");
-
-// EXTERNAL MODULE: ./components/Header/Header.js + 1 modules
-var Header = __webpack_require__("8x5e");
-
-// EXTERNAL MODULE: ./components/Footer/Footer.js + 1 modules
-var Footer = __webpack_require__("HXcA");
-
-// EXTERNAL MODULE: ./components/CustomButtons/Button.js + 1 modules
-var Button = __webpack_require__("Kg+a");
-
-// EXTERNAL MODULE: ./components/Grid/GridContainer.js
-var GridContainer = __webpack_require__("mtPR");
-
-// EXTERNAL MODULE: ./components/Grid/GridItem.js
-var GridItem = __webpack_require__("i4t8");
-
-// EXTERNAL MODULE: ./components/Header/HeaderLinks.js + 4 modules
-var HeaderLinks = __webpack_require__("8E12");
-
-// EXTERNAL MODULE: ./components/NavPills/NavPills.js + 1 modules
-var NavPills = __webpack_require__("SuH/");
-
-// EXTERNAL MODULE: ./components/Parallax/Parallax.js + 1 modules
-var Parallax = __webpack_require__("Z2Lm");
-
-// EXTERNAL MODULE: ./components/Card/Card.js + 1 modules
-var Card = __webpack_require__("A2So");
-
-// EXTERNAL MODULE: ./components/Card/CardBody.js + 1 modules
-var CardBody = __webpack_require__("UsYt");
-
-// EXTERNAL MODULE: ./components/Card/CardHeader.js + 1 modules
-var CardHeader = __webpack_require__("2zww");
-
-// EXTERNAL MODULE: ./components/Card/CardFooter.js + 1 modules
-var CardFooter = __webpack_require__("5LSk");
-
-// EXTERNAL MODULE: ./components/CustomInput/CustomInput.js + 1 modules
-var CustomInput = __webpack_require__("um8N");
-
-// EXTERNAL MODULE: external "@material-ui/core/InputAdornment"
-var InputAdornment_ = __webpack_require__("lj8g");
-
-// EXTERNAL MODULE: ./assets/img/faces/christian.jpg
-var christian = __webpack_require__("skcn");
-
-// EXTERNAL MODULE: ./assets/img/beach1.jpg
-var beach1 = __webpack_require__("ashd");
-var beach1_default = /*#__PURE__*/__webpack_require__.n(beach1);
-
-// EXTERNAL MODULE: ./assets/img/beach2.jpg
-var beach2 = __webpack_require__("a3Fa");
-
-// EXTERNAL MODULE: ./assets/img/beach3.jpg
-var beach3 = __webpack_require__("6Cna");
-
-// EXTERNAL MODULE: ./assets/img/merch2.jpg
-var merch2 = __webpack_require__("j1q9");
-var merch2_default = /*#__PURE__*/__webpack_require__.n(merch2);
-
-// EXTERNAL MODULE: ./assets/img/merch3.jpg
-var merch3 = __webpack_require__("XenW");
-var merch3_default = /*#__PURE__*/__webpack_require__.n(merch3);
-
-// EXTERNAL MODULE: ./assets/img/examples/studio-1.jpg
-var studio_1 = __webpack_require__("zEVw");
-
-// EXTERNAL MODULE: ./assets/img/examples/studio-2.jpg
-var studio_2 = __webpack_require__("xPFQ");
-
-// EXTERNAL MODULE: ./assets/img/examples/studio-3.jpg
-var studio_3 = __webpack_require__("Ww66");
-
-// EXTERNAL MODULE: ./assets/img/examples/studio-4.jpg
-var studio_4 = __webpack_require__("DhJs");
-
-// EXTERNAL MODULE: ./assets/img/examples/studio-5.jpg
-var studio_5 = __webpack_require__("9BzL");
-
-// EXTERNAL MODULE: ./assets/img/examples/olu-eletu.jpg
-var olu_eletu = __webpack_require__("wy5I");
-
-// EXTERNAL MODULE: ./assets/img/examples/clem-onojeghuo.jpg
-var clem_onojeghuo = __webpack_require__("k4XW");
-
-// EXTERNAL MODULE: ./assets/img/examples/cynthia-del-rio.jpg
-var cynthia_del_rio = __webpack_require__("vE/t");
-
-// EXTERNAL MODULE: ./assets/img/examples/mariya-georgieva.jpg
-var mariya_georgieva = __webpack_require__("1YMw");
-
-// EXTERNAL MODULE: ./assets/img/examples/clem-onojegaw.jpg
-var clem_onojegaw = __webpack_require__("x0Xe");
-
-// EXTERNAL MODULE: ./node_modules/next/link.js
-var next_link = __webpack_require__("YFqc");
-var link_default = /*#__PURE__*/__webpack_require__.n(next_link);
-
-// EXTERNAL MODULE: ./assets/jss/nextjs-material-kit.js
-var nextjs_material_kit = __webpack_require__("eDSW");
-
-// EXTERNAL MODULE: ./assets/jss/nextjs-material-kit/imagesStyles.js
-var imagesStyles = __webpack_require__("Ilpk");
-
-// CONCATENATED MODULE: ./assets/jss/nextjs-material-kit/pages/beachStop.js
-function ownKeys(object, enumerableOnly) { var keys = Object.keys(object); if (Object.getOwnPropertySymbols) { var symbols = Object.getOwnPropertySymbols(object); if (enumerableOnly) symbols = symbols.filter(function (sym) { return Object.getOwnPropertyDescriptor(object, sym).enumerable; }); keys.push.apply(keys, symbols); } return keys; }
-
-function _objectSpread(target) { for (var i = 1; i < arguments.length; i++) { var source = arguments[i] != null ? arguments[i] : {}; if (i % 2) { ownKeys(Object(source), true).forEach(function (key) { _defineProperty(target, key, source[key]); }); } else if (Object.getOwnPropertyDescriptors) { Object.defineProperties(target, Object.getOwnPropertyDescriptors(source)); } else { ownKeys(Object(source)).forEach(function (key) { Object.defineProperty(target, key, Object.getOwnPropertyDescriptor(source, key)); }); } } return target; }
-
-function _defineProperty(obj, key, value) { if (key in obj) { Object.defineProperty(obj, key, { value: value, enumerable: true, configurable: true, writable: true }); } else { obj[key] = value; } return obj; }
-
-
-
-
-const beachStopPageStyle = _objectSpread(_objectSpread({
-  container: _objectSpread(_objectSpread({}, nextjs_material_kit["c" /* container */]), {}, {
-    zIndex: "2",
-    position: "relative",
-    paddingTop: "20vh",
-    color: "#3e2141",
-    paddingBottom: "200px"
-  })
-}, imagesStyles["a" /* default */]), {}, {
-  cardHidden: {
-    opacity: "0",
-    transform: "translate3d(0, -60px, 0)"
-  },
-  title: _objectSpread(_objectSpread({}, nextjs_material_kit["v" /* title */]), {}, {
-    marginBottom: "1rem",
-    marginTop: "30px",
-    minHeight: "32px",
-    textDecoration: "none",
-    textAlign: 'center'
-  }),
-  pageHeader: {
-    height: "auto",
-    display: "inherit",
-    position: "relative",
-    margin: "0",
-    padding: "0",
-    border: "0",
-    alignItems: "center",
-    "&:before": {
-      background: "rgba(0, 0, 0, 0.5)"
-    },
-    "&:before,&:after": {
-      position: "absolute",
-      zIndex: "1",
-      width: "100%",
-      height: "100%",
-      display: "block",
-      left: "0",
-      top: "0",
-      content: '""'
-    },
-    "& footer li a,& footer li a:hover,& footer li a:active": {
-      color: "#FFFFFF"
-    },
-    "& footer": {
-      position: "absolute",
-      bottom: "0",
-      width: "100%"
-    }
-  },
-  form: {
-    margin: "0"
-  },
-  card: {
-    background: 'rgba( 245, 251, 195, 0.20 )',
-    boxShadow: '0 8px 32px 0 rgba( 31, 38, 135, 0.37 )',
-    backdropFilter: 'blur( 7.5px )',
-    // -webkit-backdrop-filter: blur( 7.5px );
-    borderRadius: '10px',
-    border: '1px solid rgba( 255, 255, 255, 0.18 )',
-    alignItems: "center"
-  },
-  cardHeader: {
-    width: "auto",
-    textAlign: "center",
-    marginLeft: "20px",
-    marginRight: "20px",
-    marginTop: "-40px",
-    padding: "20px 0",
-    marginBottom: "15px"
-  },
-  socialIcons: {
-    maxWidth: "24px",
-    marginTop: "0",
-    width: "100%",
-    transform: "none",
-    left: "0",
-    top: "0",
-    height: "100%",
-    lineHeight: "41px",
-    fontSize: "20px"
-  },
-  icons: {
-    width: "20px",
-    height: "20px",
-    marginRight: "3px"
-  },
-  imageCard: {
-    paddingTop: "1rem"
-  },
-  divider: {
-    marginTop: "30px",
-    marginBottom: "0px",
-    textAlign: "center"
-  },
-  cardFooter: {
-    paddingTop: "0rem",
-    border: "0",
-    borderRadius: "6px",
-    justifyContent: "center !important"
-  },
-  socialLine: {
-    marginTop: "1rem",
-    textAlign: "center",
-    padding: "0"
-  },
-  inputIconsColor: {
-    color: "#495057"
-  }
-});
-
-/* harmony default export */ var beachStop = (beachStopPageStyle);
-// CONCATENATED MODULE: ./pages/beachstop.js
-var __jsx = external_react_default.a.createElement;
-
-function _extends() { _extends = Object.assign || function (target) { for (var i = 1; i < arguments.length; i++) { var source = arguments[i]; for (var key in source) { if (Object.prototype.hasOwnProperty.call(source, key)) { target[key] = source[key]; } } } return target; }; return _extends.apply(this, arguments); }
-
- // nodejs library that concatenates classes
-
- // @material-ui/core components
-
- // @material-ui/icons
-
-
-
-
-
-
-
-
- // core components
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-const useStyles = Object(styles_["makeStyles"])(beachStop);
-function ProfilePage(props) {
-  const [cardAnimaton, setCardAnimation] = external_react_default.a.useState("cardHidden");
-  setTimeout(function () {
-    setCardAnimation("");
-  }, 700);
-  const classes = useStyles();
-  const rest = Object.assign({}, props);
-  const imageClasses = external_classnames_default()(classes.imgRaised, classes.imgFluid, classes.imageCard);
-  const cardClasses = external_classnames_default()(classes[cardAnimaton], classes.card);
-  const navImageClasses = external_classnames_default()(classes.imgRounded, classes.imgGallery);
-
-  const handleChange = e => {
-    console.log('clicked');
-  };
-
-  const handleSubmit = e => {
-    e.preventDefault();
-    console.log('clicked');
-  };
-
-  return __jsx("div", null, __jsx(Header["a" /* default */], _extends({
-    color: "transparent",
-    brand: "Hes & Hers",
-    rightLinks: __jsx(HeaderLinks["a" /* default */], null),
-    absolute: true,
-    changeColorOnScroll: {
-      height: 200,
-      color: "white"
-    }
-  }, rest)), __jsx("div", {
-    className: classes.pageHeader,
-    style: {
-      backgroundImage: "url(" + beach1_default.a + ")",
-      backgroundSize: "cover",
-      backgroundPosition: "top center"
-    }
-  }, __jsx("div", {
-    className: classes.container
-  }, __jsx(GridContainer["a" /* default */], {
-    justify: "center",
-    direction: "row"
-  }, __jsx(GridItem["a" /* default */], {
-    xs: 12,
-    sm: 6,
-    md: 5
-  }, __jsx(Card["a" /* default */], {
-    className: cardClasses
-  }, __jsx(link_default.a, {
-    href: "/his-product-upload",
-    as: '/his-product-upload'
-  }, __jsx(GridItem["a" /* default */], {
-    xs: 12,
-    sm: 12,
-    md: 7,
-    className: classes.itemGrid
-  }, __jsx("img", {
-    src: merch3_default.a,
-    alt: "...",
-    className: imageClasses
-  }), __jsx("h2", {
-    className: classes.title
-  }, "His"))))), __jsx(GridItem["a" /* default */], {
-    xs: 12,
-    sm: 6,
-    md: 5
-  }, __jsx(Card["a" /* default */], {
-    className: cardClasses
-  }, __jsx(link_default.a, {
-    href: "/her-product-upload",
-    as: '/her-product-upload'
-  }, __jsx(GridItem["a" /* default */], {
-    xs: 12,
-    sm: 12,
-    md: 7,
-    className: classes.itemGrid
-  }, __jsx("img", {
-    src: merch2_default.a,
-    alt: "...",
-    className: imageClasses
-  }), __jsx("h2", {
-    className: classes.title
-  }, "Hers")))))))), __jsx(Footer["a" /* default */], null));
-}
-
-/***/ }),
-
 /***/ "nybW":
 /***/ (function(module, exports) {
 
@@ -6090,13 +5741,6 @@ module.exports = require("@material-ui/core/Paper");
 
 /***/ }),
 
-/***/ "rx4r":
-/***/ (function(module, exports) {
-
-module.exports = require("@material-ui/icons/Create");
-
-/***/ }),
-
 /***/ "skcn":
 /***/ (function(module, exports) {
 
@@ -6104,211 +5748,10 @@ module.exports = "/_next/static/images/christian-56633ed3f62f39d71f571374a6409e6
 
 /***/ }),
 
-/***/ "tBFs":
-/***/ (function(module, exports) {
-
-module.exports = require("@material-ui/core/Input");
-
-/***/ }),
-
 /***/ "uYRW":
 /***/ (function(module, exports) {
 
 module.exports = require("@material-ui/icons/Camera");
-
-/***/ }),
-
-/***/ "um8N":
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-
-// EXPORTS
-__webpack_require__.d(__webpack_exports__, "a", function() { return /* binding */ CustomInput; });
-
-// EXTERNAL MODULE: external "react"
-var external_react_ = __webpack_require__("cDcd");
-var external_react_default = /*#__PURE__*/__webpack_require__.n(external_react_);
-
-// EXTERNAL MODULE: external "classnames"
-var external_classnames_ = __webpack_require__("K2gz");
-var external_classnames_default = /*#__PURE__*/__webpack_require__.n(external_classnames_);
-
-// EXTERNAL MODULE: external "@material-ui/core/styles"
-var styles_ = __webpack_require__("9Pu4");
-
-// EXTERNAL MODULE: external "@material-ui/core/FormControl"
-var FormControl_ = __webpack_require__("lWoh");
-var FormControl_default = /*#__PURE__*/__webpack_require__.n(FormControl_);
-
-// EXTERNAL MODULE: external "@material-ui/core/InputLabel"
-var InputLabel_ = __webpack_require__("zOcm");
-var InputLabel_default = /*#__PURE__*/__webpack_require__.n(InputLabel_);
-
-// EXTERNAL MODULE: external "@material-ui/core/Input"
-var Input_ = __webpack_require__("tBFs");
-var Input_default = /*#__PURE__*/__webpack_require__.n(Input_);
-
-// EXTERNAL MODULE: ./assets/jss/nextjs-material-kit.js
-var nextjs_material_kit = __webpack_require__("eDSW");
-
-// CONCATENATED MODULE: ./assets/jss/nextjs-material-kit/components/customInputStyle.js
-function ownKeys(object, enumerableOnly) { var keys = Object.keys(object); if (Object.getOwnPropertySymbols) { var symbols = Object.getOwnPropertySymbols(object); if (enumerableOnly) symbols = symbols.filter(function (sym) { return Object.getOwnPropertyDescriptor(object, sym).enumerable; }); keys.push.apply(keys, symbols); } return keys; }
-
-function _objectSpread(target) { for (var i = 1; i < arguments.length; i++) { var source = arguments[i] != null ? arguments[i] : {}; if (i % 2) { ownKeys(Object(source), true).forEach(function (key) { _defineProperty(target, key, source[key]); }); } else if (Object.getOwnPropertyDescriptors) { Object.defineProperties(target, Object.getOwnPropertyDescriptors(source)); } else { ownKeys(Object(source)).forEach(function (key) { Object.defineProperty(target, key, Object.getOwnPropertyDescriptor(source, key)); }); } } return target; }
-
-function _defineProperty(obj, key, value) { if (key in obj) { Object.defineProperty(obj, key, { value: value, enumerable: true, configurable: true, writable: true }); } else { obj[key] = value; } return obj; }
-
-
-const customInputStyle = {
-  disabled: {
-    "&:before": {
-      borderColor: "transparent !important"
-    }
-  },
-  underline: {
-    "&:hover:not($disabled):before,&:before": {
-      borderColor: "#D2D2D2 !important",
-      borderWidth: "1px !important"
-    },
-    "&:after": {
-      borderColor: nextjs_material_kit["p" /* primaryColor */]
-    }
-  },
-  underlineError: {
-    "&:after": {
-      borderColor: nextjs_material_kit["f" /* dangerColor */]
-    }
-  },
-  underlineSuccess: {
-    "&:after": {
-      borderColor: nextjs_material_kit["u" /* successColor */]
-    }
-  },
-  whiteUnderline: {
-    "&:hover:not($disabled):before,&:before": {
-      borderColor: "#FFFFFF"
-    },
-    "&:after": {
-      borderColor: "#FFFFFF"
-    }
-  },
-  labelRoot: _objectSpread(_objectSpread({}, nextjs_material_kit["g" /* defaultFont */]), {}, {
-    color: "#AAAAAA !important",
-    fontWeight: "400",
-    fontSize: "14px",
-    lineHeight: "1.42857",
-    top: "10px",
-    letterSpacing: "unset",
-    "& + $underline": {
-      marginTop: "0px"
-    }
-  }),
-  labelRootError: {
-    color: nextjs_material_kit["f" /* dangerColor */] + " !important"
-  },
-  labelRootSuccess: {
-    color: nextjs_material_kit["u" /* successColor */] + " !important"
-  },
-  formControl: {
-    margin: "0 0 17px 0",
-    paddingTop: "27px",
-    position: "relative",
-    "& svg,& .fab,& .far,& .fal,& .fas,& .material-icons": {
-      color: "#495057"
-    }
-  },
-  input: {
-    color: "#495057",
-    height: "unset",
-    "&,&::placeholder": {
-      fontSize: "14px",
-      fontFamily: '"Roboto", "Helvetica", "Arial", sans-serif',
-      fontWeight: "400",
-      lineHeight: "1.42857",
-      opacity: "1"
-    },
-    "&::placeholder": {
-      color: "#AAAAAA"
-    }
-  },
-  whiteInput: {
-    "&,&::placeholder": {
-      color: "#FFFFFF",
-      opacity: "1"
-    }
-  }
-};
-/* harmony default export */ var components_customInputStyle = (customInputStyle);
-// CONCATENATED MODULE: ./components/CustomInput/CustomInput.js
-var __jsx = external_react_default.a.createElement;
-
-function _extends() { _extends = Object.assign || function (target) { for (var i = 1; i < arguments.length; i++) { var source = arguments[i]; for (var key in source) { if (Object.prototype.hasOwnProperty.call(source, key)) { target[key] = source[key]; } } } return target; }; return _extends.apply(this, arguments); }
-
- // nodejs library to set properties for components
-
-// nodejs library that concatenates classes
- // @material-ui/core components
-
-
-
-
-
-
-const useStyles = Object(styles_["makeStyles"])(components_customInputStyle);
-function CustomInput(props) {
-  const classes = useStyles();
-  const {
-    formControlProps,
-    labelText,
-    id,
-    labelProps,
-    inputProps,
-    error,
-    white,
-    inputRootCustomClasses,
-    success
-  } = props;
-  const labelClasses = external_classnames_default()({
-    [" " + classes.labelRootError]: error,
-    [" " + classes.labelRootSuccess]: success && !error
-  });
-  const underlineClasses = external_classnames_default()({
-    [classes.underlineError]: error,
-    [classes.underlineSuccess]: success && !error,
-    [classes.underline]: true,
-    [classes.whiteUnderline]: white
-  });
-  const marginTop = external_classnames_default()({
-    [inputRootCustomClasses]: inputRootCustomClasses !== undefined
-  });
-  const inputClasses = external_classnames_default()({
-    [classes.input]: true,
-    [classes.whiteInput]: white
-  });
-  var formControlClasses;
-
-  if (formControlProps !== undefined) {
-    formControlClasses = external_classnames_default()(formControlProps.className, classes.formControl);
-  } else {
-    formControlClasses = classes.formControl;
-  }
-
-  return __jsx(FormControl_default.a, _extends({}, formControlProps, {
-    className: formControlClasses
-  }), labelText !== undefined ? __jsx(InputLabel_default.a, _extends({
-    className: classes.labelRoot + " " + labelClasses,
-    htmlFor: id
-  }, labelProps), labelText) : null, __jsx(Input_default.a, _extends({
-    classes: {
-      input: inputClasses,
-      root: marginTop,
-      disabled: classes.disabled,
-      underline: underlineClasses
-    },
-    id: id
-  }, inputProps)));
-}
 
 /***/ }),
 
@@ -6508,13 +5951,6 @@ const fire = firebase__WEBPACK_IMPORTED_MODULE_0___default.a;
 /***/ (function(module, exports) {
 
 module.exports = "/_next/static/images/studio-1-ae0150c08dbcc95e4f50458e02e5bd5c.jpg";
-
-/***/ }),
-
-/***/ "zOcm":
-/***/ (function(module, exports) {
-
-module.exports = require("@material-ui/core/InputLabel");
 
 /***/ })
 

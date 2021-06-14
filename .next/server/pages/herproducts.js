@@ -88,7 +88,7 @@ module.exports =
 /******/
 /******/
 /******/ 	// Load entry module and return exports
-/******/ 	return __webpack_require__(__webpack_require__.s = 3);
+/******/ 	return __webpack_require__(__webpack_require__.s = 5);
 /******/ })
 /************************************************************************/
 /******/ ({
@@ -178,13 +178,6 @@ exports.cancelIdleCallback = cancelIdleCallback;
 /***/ (function(module, exports) {
 
 module.exports = require("@material-ui/core/List");
-
-/***/ }),
-
-/***/ "1YMw":
-/***/ (function(module, exports) {
-
-module.exports = "/_next/static/images/mariya-georgieva-4575c40bfb8dec6713d2da51c4c4066e.jpg";
 
 /***/ }),
 
@@ -280,14 +273,6 @@ function CardHeader(props) {
     className: cardHeaderClasses
   }, rest), children);
 }
-
-/***/ }),
-
-/***/ 3:
-/***/ (function(module, exports, __webpack_require__) {
-
-module.exports = __webpack_require__("ntQz");
-
 
 /***/ }),
 
@@ -399,6 +384,14 @@ module.exports = require("@material-ui/icons/Menu");
 
 /***/ }),
 
+/***/ 5:
+/***/ (function(module, exports, __webpack_require__) {
+
+module.exports = __webpack_require__("m47s");
+
+
+/***/ }),
+
 /***/ "5LSk":
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
@@ -464,13 +457,6 @@ function CardFooter(props) {
     className: cardFooterClasses
   }, rest), children);
 }
-
-/***/ }),
-
-/***/ "6Cna":
-/***/ (function(module, exports) {
-
-module.exports = "/_next/static/images/beach3-b6243e148d2eaffe7cfd2d18ecaed629.jpg";
 
 /***/ }),
 
@@ -602,13 +588,6 @@ function formatUrl(urlObj) {
   search = search.replace('#', '%23');
   return `${protocol}${host}${pathname}${search}${hash}`;
 }
-
-/***/ }),
-
-/***/ "6Yxu":
-/***/ (function(module, exports) {
-
-module.exports = require("@material-ui/core/Tab");
 
 /***/ }),
 
@@ -1703,13 +1682,6 @@ Header.defaultProp = {
 
 /***/ }),
 
-/***/ "9BzL":
-/***/ (function(module, exports) {
-
-module.exports = "/_next/static/images/studio-5-ef5c30ea69b7ad740ee6221782c73741.jpg";
-
-/***/ }),
-
 /***/ "9Pu4":
 /***/ (function(module, exports) {
 
@@ -1847,13 +1819,6 @@ module.exports = _typeof;
 /***/ (function(module, exports) {
 
 module.exports = require("@material-ui/icons/AccountCircle");
-
-/***/ }),
-
-/***/ "DhJs":
-/***/ (function(module, exports) {
-
-module.exports = "/_next/static/images/studio-4-e064d0908dbd53b55f8980c02b3748bb.jpg";
 
 /***/ }),
 
@@ -2498,13 +2463,6 @@ const RegularButton = /*#__PURE__*/external_react_default.a.forwardRef((props, r
 
 /***/ }),
 
-/***/ "LVbA":
-/***/ (function(module, exports) {
-
-module.exports = require("@material-ui/icons/MonetizationOn");
-
-/***/ }),
-
 /***/ "Ms0O":
 /***/ (function(module, exports) {
 
@@ -2811,297 +2769,6 @@ module.exports = require("@material-ui/core/Drawer");
 
 /***/ }),
 
-/***/ "QzC/":
-/***/ (function(module, exports) {
-
-module.exports = require("react-swipeable-views");
-
-/***/ }),
-
-/***/ "SJC6":
-/***/ (function(module, exports) {
-
-module.exports = require("@material-ui/core/Tabs");
-
-/***/ }),
-
-/***/ "SuH/":
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-
-// EXPORTS
-__webpack_require__.d(__webpack_exports__, "a", function() { return /* binding */ NavPills; });
-
-// EXTERNAL MODULE: external "react"
-var external_react_ = __webpack_require__("cDcd");
-var external_react_default = /*#__PURE__*/__webpack_require__.n(external_react_);
-
-// EXTERNAL MODULE: external "classnames"
-var external_classnames_ = __webpack_require__("K2gz");
-var external_classnames_default = /*#__PURE__*/__webpack_require__.n(external_classnames_);
-
-// EXTERNAL MODULE: external "react-swipeable-views"
-var external_react_swipeable_views_ = __webpack_require__("QzC/");
-var external_react_swipeable_views_default = /*#__PURE__*/__webpack_require__.n(external_react_swipeable_views_);
-
-// EXTERNAL MODULE: external "@material-ui/core/styles"
-var styles_ = __webpack_require__("9Pu4");
-
-// EXTERNAL MODULE: external "@material-ui/core/Tabs"
-var Tabs_ = __webpack_require__("SJC6");
-var Tabs_default = /*#__PURE__*/__webpack_require__.n(Tabs_);
-
-// EXTERNAL MODULE: external "@material-ui/core/Tab"
-var Tab_ = __webpack_require__("6Yxu");
-var Tab_default = /*#__PURE__*/__webpack_require__.n(Tab_);
-
-// EXTERNAL MODULE: ./components/Grid/GridContainer.js
-var GridContainer = __webpack_require__("mtPR");
-
-// EXTERNAL MODULE: ./components/Grid/GridItem.js
-var GridItem = __webpack_require__("i4t8");
-
-// EXTERNAL MODULE: ./assets/jss/nextjs-material-kit.js
-var nextjs_material_kit = __webpack_require__("eDSW");
-
-// CONCATENATED MODULE: ./assets/jss/nextjs-material-kit/components/navPillsStyle.js
-
-
-const navPillsStyle = theme => ({
-  root: {
-    marginTop: "20px",
-    paddingLeft: "0",
-    marginBottom: "0",
-    overflow: "visible !important",
-    lineHeight: "24px",
-    textTransform: "uppercase",
-    fontSize: "12px",
-    fontWeight: "500",
-    position: "relative",
-    display: "block",
-    color: "inherit"
-  },
-  flexContainer: {
-    [theme.breakpoints.down("xs")]: {
-      display: "flex",
-      flexWrap: "wrap"
-    }
-  },
-  displayNone: {
-    display: "none !important"
-  },
-  fixed: {
-    overflow: "visible !important"
-  },
-  horizontalDisplay: {
-    display: "block"
-  },
-  pills: {
-    float: "left",
-    position: "relative",
-    display: "block",
-    borderRadius: "30px",
-    minWidth: "100px",
-    textAlign: "center",
-    transition: "all .3s",
-    padding: "10px 15px",
-    color: "#555555",
-    height: "auto",
-    opacity: "1",
-    maxWidth: "100%",
-    margin: "0 5px"
-  },
-  pillsWithIcons: {
-    borderRadius: "4px"
-  },
-  tabIcon: {
-    width: "30px",
-    height: "30px",
-    display: "block",
-    margin: "15px 0 !important",
-    "&, & *": {
-      letterSpacing: "normal !important"
-    }
-  },
-  horizontalPills: {
-    width: "100%",
-    float: "none !important",
-    "& + button": {
-      margin: "10px 0"
-    }
-  },
-  contentWrapper: {
-    marginTop: "20px"
-  },
-  primary: {
-    "&,&:hover": {
-      color: "#FFFFFF",
-      backgroundColor: nextjs_material_kit["p" /* primaryColor */],
-      boxShadow: `0 4px 20px 0px rgba(0, 0, 0, 0.14), 0 7px 10px -5px ${Object(nextjs_material_kit["j" /* hexToRGBAlpha */])(nextjs_material_kit["p" /* primaryColor */], 0.4)}`
-    }
-  },
-  info: {
-    "&,&:hover": {
-      color: "#FFFFFF",
-      backgroundColor: nextjs_material_kit["m" /* infoColor */],
-      boxShadow: `0 4px 20px 0px rgba(0, 0, 0, 0.14), 0 7px 10px -5px ${Object(nextjs_material_kit["j" /* hexToRGBAlpha */])(nextjs_material_kit["m" /* infoColor */], 0.4)}`
-    }
-  },
-  success: {
-    "&,&:hover": {
-      color: "#FFFFFF",
-      backgroundColor: nextjs_material_kit["u" /* successColor */],
-      boxShadow: `0 2px 2px 0 ${Object(nextjs_material_kit["j" /* hexToRGBAlpha */])(nextjs_material_kit["u" /* successColor */], 0.14)}, 0 3px 1px -2px ${Object(nextjs_material_kit["j" /* hexToRGBAlpha */])(nextjs_material_kit["u" /* successColor */], 0.2)}, 0 1px 5px 0 ${Object(nextjs_material_kit["j" /* hexToRGBAlpha */])(nextjs_material_kit["u" /* successColor */], 0.12)}`
-    }
-  },
-  warning: {
-    "&,&:hover": {
-      color: "#FFFFFF",
-      backgroundColor: nextjs_material_kit["z" /* warningColor */],
-      boxShadow: `0 4px 20px 0px rgba(0, 0, 0, 0.14), 0 7px 10px -5px ${Object(nextjs_material_kit["j" /* hexToRGBAlpha */])(nextjs_material_kit["z" /* warningColor */], 0.4)}`
-    }
-  },
-  danger: {
-    "&,&:hover": {
-      color: "#FFFFFF",
-      backgroundColor: nextjs_material_kit["f" /* dangerColor */],
-      boxShadow: `0 4px 20px 0px rgba(0, 0, 0, 0.14), 0 7px 10px -5px ${Object(nextjs_material_kit["j" /* hexToRGBAlpha */])(nextjs_material_kit["f" /* dangerColor */], 0.4)}`
-    }
-  },
-  rose: {
-    "&,&:hover": {
-      color: "#FFFFFF",
-      backgroundColor: nextjs_material_kit["r" /* roseColor */],
-      boxShadow: `0 4px 20px 0px rgba(0, 0, 0, 0.14), 0 7px 10px -5px ${Object(nextjs_material_kit["j" /* hexToRGBAlpha */])(nextjs_material_kit["r" /* roseColor */], 0.4)}`
-    }
-  },
-  alignCenter: {
-    alignItems: "center",
-    justifyContent: "center"
-  },
-  tabWrapper: {
-    color: "inherit",
-    position: "relative",
-    fontSize: "12px",
-    lineHeight: "24px",
-    fontWeight: "500",
-    textTransform: "uppercase",
-    "&,& *": {
-      letterSpacing: "normal"
-    }
-  }
-});
-
-/* harmony default export */ var components_navPillsStyle = (navPillsStyle);
-// CONCATENATED MODULE: ./components/NavPills/NavPills.js
-var __jsx = external_react_default.a.createElement;
-
-function _extends() { _extends = Object.assign || function (target) { for (var i = 1; i < arguments.length; i++) { var source = arguments[i]; for (var key in source) { if (Object.prototype.hasOwnProperty.call(source, key)) { target[key] = source[key]; } } } return target; }; return _extends.apply(this, arguments); }
-
- // nodejs library that concatenates classes
-
- // nodejs library to set properties for components
-
- // @material-ui/core components
-
-
-
- // core components
-
-
-
-
-const useStyles = Object(styles_["makeStyles"])(components_navPillsStyle);
-function NavPills(props) {
-  const [active, setActive] = external_react_default.a.useState(props.active);
-
-  const handleChange = (event, active) => {
-    setActive(active);
-  };
-
-  const handleChangeIndex = index => {
-    setActive(index);
-  };
-
-  const classes = useStyles();
-  const {
-    tabs,
-    direction,
-    color,
-    horizontal,
-    alignCenter
-  } = props;
-  const flexContainerClasses = external_classnames_default()({
-    [classes.flexContainer]: true,
-    [classes.horizontalDisplay]: horizontal !== undefined
-  });
-
-  const tabButtons = __jsx(Tabs_default.a, {
-    classes: {
-      root: classes.root,
-      fixed: classes.fixed,
-      flexContainer: flexContainerClasses,
-      indicator: classes.displayNone
-    },
-    value: active,
-    onChange: handleChange,
-    centered: alignCenter
-  }, tabs.map((prop, key) => {
-    var icon = {};
-
-    if (prop.tabIcon !== undefined) {
-      icon["icon"] = __jsx(prop.tabIcon, {
-        className: classes.tabIcon
-      });
-    }
-
-    const pillsClasses = external_classnames_default()({
-      [classes.pills]: true,
-      [classes.horizontalPills]: horizontal !== undefined,
-      [classes.pillsWithIcons]: prop.tabIcon !== undefined
-    });
-    return __jsx(Tab_default.a, _extends({
-      label: prop.tabButton,
-      key: key
-    }, icon, {
-      classes: {
-        root: pillsClasses,
-        selected: classes[color],
-        wrapper: classes.tabWrapper
-      }
-    }));
-  }));
-
-  const tabContent = __jsx("div", {
-    className: classes.contentWrapper
-  }, __jsx(external_react_swipeable_views_default.a, {
-    axis: direction === "rtl" ? "x-reverse" : "x",
-    index: active,
-    onChangeIndex: handleChangeIndex
-  }, tabs.map((prop, key) => {
-    return __jsx("div", {
-      className: classes.tabContent,
-      key: key
-    }, prop.tabContent);
-  })));
-
-  return horizontal !== undefined ? __jsx(GridContainer["a" /* default */], null, __jsx(GridItem["a" /* default */], horizontal.tabsGrid, tabButtons), __jsx(GridItem["a" /* default */], horizontal.contentGrid, tabContent)) : __jsx("div", null, tabButtons, tabContent);
-}
-NavPills.defaultProps = {
-  active: 0,
-  color: "primary"
-};
-
-/***/ }),
-
-/***/ "U4Md":
-/***/ (function(module, exports) {
-
-module.exports = require("@material-ui/icons/Description");
-
-/***/ }),
-
 /***/ "UhrY":
 /***/ (function(module, exports) {
 
@@ -3182,13 +2849,6 @@ module.exports = require("@material-ui/core/Button");
 
 /***/ }),
 
-/***/ "Ww66":
-/***/ (function(module, exports) {
-
-module.exports = "/_next/static/images/studio-3-1d5451ced89eabb55683e27e070bdb60.jpg";
-
-/***/ }),
-
 /***/ "X24+":
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -3213,13 +2873,6 @@ function removePathTrailingSlash(path) {
 
 const normalizePathTrailingSlash =  false ? undefined : removePathTrailingSlash;
 exports.normalizePathTrailingSlash = normalizePathTrailingSlash;
-
-/***/ }),
-
-/***/ "XenW":
-/***/ (function(module, exports) {
-
-module.exports = "/_next/static/images/merch3-d7e23a091c182a51532daf2a4af45457.jpg";
 
 /***/ }),
 
@@ -3363,13 +3016,6 @@ function getRouteRegex(normalizedRoute) {
 
 /***/ }),
 
-/***/ "YVuZ":
-/***/ (function(module, exports) {
-
-module.exports = require("@material-ui/icons/CameraAlt");
-
-/***/ }),
-
 /***/ "Z2Lm":
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
@@ -3501,10 +3147,10 @@ function Parallax(props) {
 
 /***/ }),
 
-/***/ "a3Fa":
+/***/ "ZKt7":
 /***/ (function(module, exports) {
 
-module.exports = "/_next/static/images/beach2-1fcad9125e4e6b8757037ab92c2e17ad.jpg";
+module.exports = require("@material-ui/icons/ArrowDropDownCircle");
 
 /***/ }),
 
@@ -5384,13 +5030,6 @@ GridItem.defaultProps = {
 
 /***/ }),
 
-/***/ "j1q9":
-/***/ (function(module, exports) {
-
-module.exports = "/_next/static/images/merch2-bb3709049ba89c0930322e3ab12d69bb.jpg";
-
-/***/ }),
-
 /***/ "jD8W":
 /***/ (function(module, exports) {
 
@@ -5398,31 +5037,311 @@ module.exports = require("@material-ui/core/Popper");
 
 /***/ }),
 
-/***/ "k4XW":
-/***/ (function(module, exports) {
+/***/ "m47s":
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
 
-module.exports = "/_next/static/images/clem-onojeghuo-216ef03c54bc13771c5e1b8d8f8d5926.jpg";
+"use strict";
+// ESM COMPAT FLAG
+__webpack_require__.r(__webpack_exports__);
 
-/***/ }),
+// EXPORTS
+__webpack_require__.d(__webpack_exports__, "default", function() { return /* binding */ herproducts_herProductsPage; });
 
-/***/ "lWoh":
-/***/ (function(module, exports) {
+// EXTERNAL MODULE: external "react"
+var external_react_ = __webpack_require__("cDcd");
+var external_react_default = /*#__PURE__*/__webpack_require__.n(external_react_);
 
-module.exports = require("@material-ui/core/FormControl");
+// EXTERNAL MODULE: external "classnames"
+var external_classnames_ = __webpack_require__("K2gz");
+var external_classnames_default = /*#__PURE__*/__webpack_require__.n(external_classnames_);
 
-/***/ }),
+// EXTERNAL MODULE: external "@material-ui/core/styles"
+var styles_ = __webpack_require__("9Pu4");
 
-/***/ "lj8g":
-/***/ (function(module, exports) {
+// EXTERNAL MODULE: external "@material-ui/icons/ArrowDropDownCircle"
+var ArrowDropDownCircle_ = __webpack_require__("ZKt7");
+var ArrowDropDownCircle_default = /*#__PURE__*/__webpack_require__.n(ArrowDropDownCircle_);
 
-module.exports = require("@material-ui/core/InputAdornment");
+// EXTERNAL MODULE: ./components/Header/Header.js + 1 modules
+var Header = __webpack_require__("8x5e");
 
-/***/ }),
+// EXTERNAL MODULE: ./components/Footer/Footer.js + 1 modules
+var Footer = __webpack_require__("HXcA");
 
-/***/ "m/Cw":
-/***/ (function(module, exports) {
+// EXTERNAL MODULE: ./components/Grid/GridContainer.js
+var GridContainer = __webpack_require__("mtPR");
 
-module.exports = require("@material-ui/icons/CloudUploadSharp");
+// EXTERNAL MODULE: ./components/Grid/GridItem.js
+var GridItem = __webpack_require__("i4t8");
+
+// EXTERNAL MODULE: ./components/CustomButtons/Button.js + 1 modules
+var Button = __webpack_require__("Kg+a");
+
+// EXTERNAL MODULE: ./components/Header/HeaderLinks.js + 4 modules
+var HeaderLinks = __webpack_require__("8E12");
+
+// EXTERNAL MODULE: ./components/Parallax/Parallax.js + 1 modules
+var Parallax = __webpack_require__("Z2Lm");
+
+// EXTERNAL MODULE: ./components/Card/Card.js + 1 modules
+var Card = __webpack_require__("A2So");
+
+// EXTERNAL MODULE: ./components/Card/CardBody.js + 1 modules
+var CardBody = __webpack_require__("UsYt");
+
+// EXTERNAL MODULE: ./components/Card/CardFooter.js + 1 modules
+var CardFooter = __webpack_require__("5LSk");
+
+// EXTERNAL MODULE: ./assets/jss/nextjs-material-kit.js
+var nextjs_material_kit = __webpack_require__("eDSW");
+
+// EXTERNAL MODULE: ./assets/jss/nextjs-material-kit/imagesStyles.js
+var imagesStyles = __webpack_require__("Ilpk");
+
+// CONCATENATED MODULE: ./assets/jss/nextjs-material-kit/pages/herProductsPage.js
+function ownKeys(object, enumerableOnly) { var keys = Object.keys(object); if (Object.getOwnPropertySymbols) { var symbols = Object.getOwnPropertySymbols(object); if (enumerableOnly) symbols = symbols.filter(function (sym) { return Object.getOwnPropertyDescriptor(object, sym).enumerable; }); keys.push.apply(keys, symbols); } return keys; }
+
+function _objectSpread(target) { for (var i = 1; i < arguments.length; i++) { var source = arguments[i] != null ? arguments[i] : {}; if (i % 2) { ownKeys(Object(source), true).forEach(function (key) { _defineProperty(target, key, source[key]); }); } else if (Object.getOwnPropertyDescriptors) { Object.defineProperties(target, Object.getOwnPropertyDescriptors(source)); } else { ownKeys(Object(source)).forEach(function (key) { Object.defineProperty(target, key, Object.getOwnPropertyDescriptor(source, key)); }); } } return target; }
+
+function _defineProperty(obj, key, value) { if (key in obj) { Object.defineProperty(obj, key, { value: value, enumerable: true, configurable: true, writable: true }); } else { obj[key] = value; } return obj; }
+
+
+
+
+const landingPageStyle = _objectSpread(_objectSpread({
+  container: _objectSpread({
+    zIndex: "12",
+    color: "#FFFFFF"
+  }, nextjs_material_kit["c" /* container */]),
+  title: _objectSpread(_objectSpread({}, nextjs_material_kit["v" /* title */]), {}, {
+    display: "inline-block",
+    position: "relative",
+    marginTop: "30px",
+    minHeight: "32px",
+    color: "#FFFFFF",
+    textDecoration: "none"
+  }),
+  subtitle: {
+    fontSize: "1.313rem",
+    maxWidth: "500px",
+    margin: "10px auto 0"
+  },
+  icons: {
+    width: "20px",
+    height: "20px",
+    marginRight: "3px"
+  },
+  main: {
+    background: "#FFFFFF",
+    position: "relative",
+    zIndex: "3"
+  },
+  mainRaised: {
+    margin: "-60px 30px 0px",
+    borderRadius: "6px",
+    boxShadow: "0 16px 24px 2px rgba(0, 0, 0, 0.14), 0 6px 30px 5px rgba(0, 0, 0, 0.12), 0 8px 10px -5px rgba(0, 0, 0, 0.2)"
+  },
+  section: {
+    padding: "70px 0",
+    textAlign: "center"
+  },
+  title: _objectSpread(_objectSpread({}, nextjs_material_kit["v" /* title */]), {}, {
+    marginBottom: "1rem",
+    marginTop: "30px",
+    minHeight: "32px",
+    textDecoration: "none"
+  })
+}, imagesStyles["a" /* default */]), {}, {
+  itemGrid: {
+    marginLeft: "auto",
+    marginRight: "auto"
+  },
+  cardTitle: nextjs_material_kit["b" /* cardTitle */],
+  smallTitle: {
+    color: "#6c757d"
+  },
+  description: {
+    color: "#999"
+  },
+  justifyCenter: {
+    justifyContent: "center !important"
+  },
+  icons: {
+    top: "0",
+    marginTop: "-50px",
+    width: "50px",
+    height: "50px",
+    marginRight: "3px",
+    color: "#999"
+  },
+  socials: {
+    marginTop: "-5px",
+    marginLeft: "85px",
+    width: "100%",
+    transform: "none",
+    left: "0",
+    top: "0",
+    height: "100%",
+    lineHeight: "41px",
+    fontSize: "20px",
+    color: "#999"
+  },
+  cardHeader: {
+    width: "auto",
+    textAlign: "center",
+    marginLeft: "20px",
+    marginRight: "20px",
+    marginTop: "-100px",
+    padding: "20px 0",
+    marginBottom: "15px"
+  },
+  margin5: {
+    margin: "5px"
+  }
+});
+
+/* harmony default export */ var herProductsPage = (landingPageStyle);
+// EXTERNAL MODULE: ./components/Card/CardHeader.js + 1 modules
+var CardHeader = __webpack_require__("2zww");
+
+// EXTERNAL MODULE: ./config/fire-config.js
+var fire_config = __webpack_require__("z104");
+
+// EXTERNAL MODULE: ./node_modules/next/link.js
+var next_link = __webpack_require__("YFqc");
+var link_default = /*#__PURE__*/__webpack_require__.n(next_link);
+
+// CONCATENATED MODULE: ./pages/herproducts.js
+var __jsx = external_react_default.a.createElement;
+
+function _extends() { _extends = Object.assign || function (target) { for (var i = 1; i < arguments.length; i++) { var source = arguments[i]; for (var key in source) { if (Object.prototype.hasOwnProperty.call(source, key)) { target[key] = source[key]; } } } return target; }; return _extends.apply(this, arguments); }
+
+function herproducts_ownKeys(object, enumerableOnly) { var keys = Object.keys(object); if (Object.getOwnPropertySymbols) { var symbols = Object.getOwnPropertySymbols(object); if (enumerableOnly) symbols = symbols.filter(function (sym) { return Object.getOwnPropertyDescriptor(object, sym).enumerable; }); keys.push.apply(keys, symbols); } return keys; }
+
+function herproducts_objectSpread(target) { for (var i = 1; i < arguments.length; i++) { var source = arguments[i] != null ? arguments[i] : {}; if (i % 2) { herproducts_ownKeys(Object(source), true).forEach(function (key) { herproducts_defineProperty(target, key, source[key]); }); } else if (Object.getOwnPropertyDescriptors) { Object.defineProperties(target, Object.getOwnPropertyDescriptors(source)); } else { herproducts_ownKeys(Object(source)).forEach(function (key) { Object.defineProperty(target, key, Object.getOwnPropertyDescriptor(source, key)); }); } } return target; }
+
+function herproducts_defineProperty(obj, key, value) { if (key in obj) { Object.defineProperty(obj, key, { value: value, enumerable: true, configurable: true, writable: true }); } else { obj[key] = value; } return obj; }
+
+ // nodejs library that concatenates classes
+
+ // @material-ui/core components
+
+ // @material-ui/icons
+
+ // core components
+
+
+
+
+
+
+
+
+
+
+
+ // Sections for this page
+
+
+
+
+
+const dashboardRoutes = [];
+const useStyles = Object(styles_["makeStyles"])(herProductsPage);
+function herproducts_herProductsPage(props) {
+  const classes = useStyles();
+  const imageClasses = external_classnames_default()(classes.imgRaised, classes.imgFluid, classes.imgCardTop, classes.imgCardBottom);
+  const {
+    0: products,
+    1: setProducts
+  } = Object(external_react_["useState"])([]);
+  const rest = Object.assign({}, props);
+  Object(external_react_["useEffect"])(() => {
+    fire_config["a" /* default */].firestore().collection('her-product').onSnapshot(snap => {
+      const products = snap.docs.map(doc => herproducts_objectSpread({
+        id: doc.id
+      }, doc.data()));
+      setProducts(products);
+    });
+  }, []);
+  return __jsx("div", null, __jsx(Header["a" /* default */], _extends({
+    color: "transparent",
+    routes: dashboardRoutes,
+    brand: "The Other Ones Left",
+    rightLinks: __jsx(HeaderLinks["a" /* default */], null),
+    absolute: true // changeColorOnScroll={{
+    //     height: 500,
+    //     color: "transparent"
+    // }}
+
+  }, rest)), __jsx(Parallax["a" /* default */], {
+    filter: true,
+    responsive: true,
+    image: __webpack_require__("ashd")
+  }, __jsx("div", {
+    className: classes.container
+  }, __jsx(GridContainer["a" /* default */], null, __jsx(GridItem["a" /* default */], {
+    xs: 12,
+    sm: 12,
+    md: 6
+  }, __jsx("h1", {
+    className: classes.title
+  }, "Check out our products for men"), __jsx("h4", null, "We have a vast selection and variety of products at discount prices. Explore our online warehouse or visit our storefront."), __jsx("br", null))))), __jsx("div", {
+    className: external_classnames_default()(classes.main, classes.mainRaised)
+  }, __jsx("div", {
+    className: classes.container
+  }, __jsx("div", {
+    className: classes.section
+  }, __jsx(CardHeader["a" /* default */], {
+    color: "primary",
+    className: classes.mavaCardHeader
+  }, __jsx("h3", {
+    className: classes.cardTitle
+  }, "Online Gallery"), __jsx(ArrowDropDownCircle_default.a, {
+    className: classes.socialIcons
+  }, "lol"), __jsx("div", {
+    className: classes.socialLine
+  })), __jsx("div", null, __jsx(GridContainer["a" /* default */], null, products.map(product => __jsx(GridItem["a" /* default */], {
+    key: product.id,
+    xs: 12,
+    sm: 12,
+    md: 4
+  }, __jsx(Card["a" /* default */], {
+    plain: true
+  }, __jsx(GridItem["a" /* default */], {
+    xs: 12,
+    sm: 12,
+    md: 10,
+    className: classes.itemGrid
+  }, __jsx("img", {
+    src: product.productImage,
+    alt: "...",
+    className: imageClasses
+  })), __jsx("h4", {
+    className: classes.cardTitle
+  }, __jsx(link_default.a, {
+    href: "/product/[id]",
+    as: '/product/' + product.id
+  }, __jsx("a", {
+    itemProp: "products"
+  }, product.productName)), __jsx("br", null), __jsx("small", {
+    className: classes.smallTitle
+  }, " $", product.productPrice)), __jsx(CardBody["a" /* default */], null, __jsx("p", {
+    className: classes.description
+  }, product.productDescription, " ", __jsx("a", {
+    href: "#pablo"
+  }, "links"), " for people to be able to follow them outside the site.")), __jsx(CardFooter["a" /* default */], {
+    className: classes.justifyCenter
+  }, __jsx(Button["a" /* default */], {
+    justIcon: true,
+    color: "transparent",
+    className: classes.margin5
+  }, __jsx("i", {
+    className: classes.socials + " far fa-heart"
+  }), __jsx("p", {
+    className: classes.description
+  }, " Add to library"))))))))))), __jsx(Footer["a" /* default */], null));
+}
 
 /***/ }),
 
@@ -5645,416 +5564,6 @@ module.exports = require("@material-ui/icons/Delete");
 
 /***/ }),
 
-/***/ "ntQz":
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-// ESM COMPAT FLAG
-__webpack_require__.r(__webpack_exports__);
-
-// EXPORTS
-__webpack_require__.d(__webpack_exports__, "default", function() { return /* binding */ ProfilePage; });
-
-// EXTERNAL MODULE: external "react"
-var external_react_ = __webpack_require__("cDcd");
-var external_react_default = /*#__PURE__*/__webpack_require__.n(external_react_);
-
-// EXTERNAL MODULE: external "classnames"
-var external_classnames_ = __webpack_require__("K2gz");
-var external_classnames_default = /*#__PURE__*/__webpack_require__.n(external_classnames_);
-
-// EXTERNAL MODULE: external "@material-ui/core/styles"
-var styles_ = __webpack_require__("9Pu4");
-
-// EXTERNAL MODULE: external "@material-ui/icons/Camera"
-var Camera_ = __webpack_require__("uYRW");
-
-// EXTERNAL MODULE: external "@material-ui/icons/Palette"
-var Palette_ = __webpack_require__("xljU");
-
-// EXTERNAL MODULE: external "@material-ui/icons/Favorite"
-var Favorite_ = __webpack_require__("Fm7H");
-
-// EXTERNAL MODULE: external "@material-ui/icons/Create"
-var Create_ = __webpack_require__("rx4r");
-
-// EXTERNAL MODULE: external "@material-ui/icons/CloudUploadSharp"
-var CloudUploadSharp_ = __webpack_require__("m/Cw");
-
-// EXTERNAL MODULE: external "@material-ui/icons/CameraAlt"
-var CameraAlt_ = __webpack_require__("YVuZ");
-
-// EXTERNAL MODULE: external "@material-ui/icons/Description"
-var Description_ = __webpack_require__("U4Md");
-
-// EXTERNAL MODULE: external "@material-ui/icons/MonetizationOn"
-var MonetizationOn_ = __webpack_require__("LVbA");
-
-// EXTERNAL MODULE: ./components/Header/Header.js + 1 modules
-var Header = __webpack_require__("8x5e");
-
-// EXTERNAL MODULE: ./components/Footer/Footer.js + 1 modules
-var Footer = __webpack_require__("HXcA");
-
-// EXTERNAL MODULE: ./components/CustomButtons/Button.js + 1 modules
-var Button = __webpack_require__("Kg+a");
-
-// EXTERNAL MODULE: ./components/Grid/GridContainer.js
-var GridContainer = __webpack_require__("mtPR");
-
-// EXTERNAL MODULE: ./components/Grid/GridItem.js
-var GridItem = __webpack_require__("i4t8");
-
-// EXTERNAL MODULE: ./components/Header/HeaderLinks.js + 4 modules
-var HeaderLinks = __webpack_require__("8E12");
-
-// EXTERNAL MODULE: ./components/NavPills/NavPills.js + 1 modules
-var NavPills = __webpack_require__("SuH/");
-
-// EXTERNAL MODULE: ./components/Parallax/Parallax.js + 1 modules
-var Parallax = __webpack_require__("Z2Lm");
-
-// EXTERNAL MODULE: ./components/Card/Card.js + 1 modules
-var Card = __webpack_require__("A2So");
-
-// EXTERNAL MODULE: ./components/Card/CardBody.js + 1 modules
-var CardBody = __webpack_require__("UsYt");
-
-// EXTERNAL MODULE: ./components/Card/CardHeader.js + 1 modules
-var CardHeader = __webpack_require__("2zww");
-
-// EXTERNAL MODULE: ./components/Card/CardFooter.js + 1 modules
-var CardFooter = __webpack_require__("5LSk");
-
-// EXTERNAL MODULE: ./components/CustomInput/CustomInput.js + 1 modules
-var CustomInput = __webpack_require__("um8N");
-
-// EXTERNAL MODULE: external "@material-ui/core/InputAdornment"
-var InputAdornment_ = __webpack_require__("lj8g");
-
-// EXTERNAL MODULE: ./assets/img/faces/christian.jpg
-var christian = __webpack_require__("skcn");
-
-// EXTERNAL MODULE: ./assets/img/beach1.jpg
-var beach1 = __webpack_require__("ashd");
-var beach1_default = /*#__PURE__*/__webpack_require__.n(beach1);
-
-// EXTERNAL MODULE: ./assets/img/beach2.jpg
-var beach2 = __webpack_require__("a3Fa");
-
-// EXTERNAL MODULE: ./assets/img/beach3.jpg
-var beach3 = __webpack_require__("6Cna");
-
-// EXTERNAL MODULE: ./assets/img/merch2.jpg
-var merch2 = __webpack_require__("j1q9");
-var merch2_default = /*#__PURE__*/__webpack_require__.n(merch2);
-
-// EXTERNAL MODULE: ./assets/img/merch3.jpg
-var merch3 = __webpack_require__("XenW");
-var merch3_default = /*#__PURE__*/__webpack_require__.n(merch3);
-
-// EXTERNAL MODULE: ./assets/img/examples/studio-1.jpg
-var studio_1 = __webpack_require__("zEVw");
-
-// EXTERNAL MODULE: ./assets/img/examples/studio-2.jpg
-var studio_2 = __webpack_require__("xPFQ");
-
-// EXTERNAL MODULE: ./assets/img/examples/studio-3.jpg
-var studio_3 = __webpack_require__("Ww66");
-
-// EXTERNAL MODULE: ./assets/img/examples/studio-4.jpg
-var studio_4 = __webpack_require__("DhJs");
-
-// EXTERNAL MODULE: ./assets/img/examples/studio-5.jpg
-var studio_5 = __webpack_require__("9BzL");
-
-// EXTERNAL MODULE: ./assets/img/examples/olu-eletu.jpg
-var olu_eletu = __webpack_require__("wy5I");
-
-// EXTERNAL MODULE: ./assets/img/examples/clem-onojeghuo.jpg
-var clem_onojeghuo = __webpack_require__("k4XW");
-
-// EXTERNAL MODULE: ./assets/img/examples/cynthia-del-rio.jpg
-var cynthia_del_rio = __webpack_require__("vE/t");
-
-// EXTERNAL MODULE: ./assets/img/examples/mariya-georgieva.jpg
-var mariya_georgieva = __webpack_require__("1YMw");
-
-// EXTERNAL MODULE: ./assets/img/examples/clem-onojegaw.jpg
-var clem_onojegaw = __webpack_require__("x0Xe");
-
-// EXTERNAL MODULE: ./node_modules/next/link.js
-var next_link = __webpack_require__("YFqc");
-var link_default = /*#__PURE__*/__webpack_require__.n(next_link);
-
-// EXTERNAL MODULE: ./assets/jss/nextjs-material-kit.js
-var nextjs_material_kit = __webpack_require__("eDSW");
-
-// EXTERNAL MODULE: ./assets/jss/nextjs-material-kit/imagesStyles.js
-var imagesStyles = __webpack_require__("Ilpk");
-
-// CONCATENATED MODULE: ./assets/jss/nextjs-material-kit/pages/beachStop.js
-function ownKeys(object, enumerableOnly) { var keys = Object.keys(object); if (Object.getOwnPropertySymbols) { var symbols = Object.getOwnPropertySymbols(object); if (enumerableOnly) symbols = symbols.filter(function (sym) { return Object.getOwnPropertyDescriptor(object, sym).enumerable; }); keys.push.apply(keys, symbols); } return keys; }
-
-function _objectSpread(target) { for (var i = 1; i < arguments.length; i++) { var source = arguments[i] != null ? arguments[i] : {}; if (i % 2) { ownKeys(Object(source), true).forEach(function (key) { _defineProperty(target, key, source[key]); }); } else if (Object.getOwnPropertyDescriptors) { Object.defineProperties(target, Object.getOwnPropertyDescriptors(source)); } else { ownKeys(Object(source)).forEach(function (key) { Object.defineProperty(target, key, Object.getOwnPropertyDescriptor(source, key)); }); } } return target; }
-
-function _defineProperty(obj, key, value) { if (key in obj) { Object.defineProperty(obj, key, { value: value, enumerable: true, configurable: true, writable: true }); } else { obj[key] = value; } return obj; }
-
-
-
-
-const beachStopPageStyle = _objectSpread(_objectSpread({
-  container: _objectSpread(_objectSpread({}, nextjs_material_kit["c" /* container */]), {}, {
-    zIndex: "2",
-    position: "relative",
-    paddingTop: "20vh",
-    color: "#3e2141",
-    paddingBottom: "200px"
-  })
-}, imagesStyles["a" /* default */]), {}, {
-  cardHidden: {
-    opacity: "0",
-    transform: "translate3d(0, -60px, 0)"
-  },
-  title: _objectSpread(_objectSpread({}, nextjs_material_kit["v" /* title */]), {}, {
-    marginBottom: "1rem",
-    marginTop: "30px",
-    minHeight: "32px",
-    textDecoration: "none",
-    textAlign: 'center'
-  }),
-  pageHeader: {
-    height: "auto",
-    display: "inherit",
-    position: "relative",
-    margin: "0",
-    padding: "0",
-    border: "0",
-    alignItems: "center",
-    "&:before": {
-      background: "rgba(0, 0, 0, 0.5)"
-    },
-    "&:before,&:after": {
-      position: "absolute",
-      zIndex: "1",
-      width: "100%",
-      height: "100%",
-      display: "block",
-      left: "0",
-      top: "0",
-      content: '""'
-    },
-    "& footer li a,& footer li a:hover,& footer li a:active": {
-      color: "#FFFFFF"
-    },
-    "& footer": {
-      position: "absolute",
-      bottom: "0",
-      width: "100%"
-    }
-  },
-  form: {
-    margin: "0"
-  },
-  card: {
-    background: 'rgba( 245, 251, 195, 0.20 )',
-    boxShadow: '0 8px 32px 0 rgba( 31, 38, 135, 0.37 )',
-    backdropFilter: 'blur( 7.5px )',
-    // -webkit-backdrop-filter: blur( 7.5px );
-    borderRadius: '10px',
-    border: '1px solid rgba( 255, 255, 255, 0.18 )',
-    alignItems: "center"
-  },
-  cardHeader: {
-    width: "auto",
-    textAlign: "center",
-    marginLeft: "20px",
-    marginRight: "20px",
-    marginTop: "-40px",
-    padding: "20px 0",
-    marginBottom: "15px"
-  },
-  socialIcons: {
-    maxWidth: "24px",
-    marginTop: "0",
-    width: "100%",
-    transform: "none",
-    left: "0",
-    top: "0",
-    height: "100%",
-    lineHeight: "41px",
-    fontSize: "20px"
-  },
-  icons: {
-    width: "20px",
-    height: "20px",
-    marginRight: "3px"
-  },
-  imageCard: {
-    paddingTop: "1rem"
-  },
-  divider: {
-    marginTop: "30px",
-    marginBottom: "0px",
-    textAlign: "center"
-  },
-  cardFooter: {
-    paddingTop: "0rem",
-    border: "0",
-    borderRadius: "6px",
-    justifyContent: "center !important"
-  },
-  socialLine: {
-    marginTop: "1rem",
-    textAlign: "center",
-    padding: "0"
-  },
-  inputIconsColor: {
-    color: "#495057"
-  }
-});
-
-/* harmony default export */ var beachStop = (beachStopPageStyle);
-// CONCATENATED MODULE: ./pages/beachstop.js
-var __jsx = external_react_default.a.createElement;
-
-function _extends() { _extends = Object.assign || function (target) { for (var i = 1; i < arguments.length; i++) { var source = arguments[i]; for (var key in source) { if (Object.prototype.hasOwnProperty.call(source, key)) { target[key] = source[key]; } } } return target; }; return _extends.apply(this, arguments); }
-
- // nodejs library that concatenates classes
-
- // @material-ui/core components
-
- // @material-ui/icons
-
-
-
-
-
-
-
-
- // core components
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-const useStyles = Object(styles_["makeStyles"])(beachStop);
-function ProfilePage(props) {
-  const [cardAnimaton, setCardAnimation] = external_react_default.a.useState("cardHidden");
-  setTimeout(function () {
-    setCardAnimation("");
-  }, 700);
-  const classes = useStyles();
-  const rest = Object.assign({}, props);
-  const imageClasses = external_classnames_default()(classes.imgRaised, classes.imgFluid, classes.imageCard);
-  const cardClasses = external_classnames_default()(classes[cardAnimaton], classes.card);
-  const navImageClasses = external_classnames_default()(classes.imgRounded, classes.imgGallery);
-
-  const handleChange = e => {
-    console.log('clicked');
-  };
-
-  const handleSubmit = e => {
-    e.preventDefault();
-    console.log('clicked');
-  };
-
-  return __jsx("div", null, __jsx(Header["a" /* default */], _extends({
-    color: "transparent",
-    brand: "Hes & Hers",
-    rightLinks: __jsx(HeaderLinks["a" /* default */], null),
-    absolute: true,
-    changeColorOnScroll: {
-      height: 200,
-      color: "white"
-    }
-  }, rest)), __jsx("div", {
-    className: classes.pageHeader,
-    style: {
-      backgroundImage: "url(" + beach1_default.a + ")",
-      backgroundSize: "cover",
-      backgroundPosition: "top center"
-    }
-  }, __jsx("div", {
-    className: classes.container
-  }, __jsx(GridContainer["a" /* default */], {
-    justify: "center",
-    direction: "row"
-  }, __jsx(GridItem["a" /* default */], {
-    xs: 12,
-    sm: 6,
-    md: 5
-  }, __jsx(Card["a" /* default */], {
-    className: cardClasses
-  }, __jsx(link_default.a, {
-    href: "/his-product-upload",
-    as: '/his-product-upload'
-  }, __jsx(GridItem["a" /* default */], {
-    xs: 12,
-    sm: 12,
-    md: 7,
-    className: classes.itemGrid
-  }, __jsx("img", {
-    src: merch3_default.a,
-    alt: "...",
-    className: imageClasses
-  }), __jsx("h2", {
-    className: classes.title
-  }, "His"))))), __jsx(GridItem["a" /* default */], {
-    xs: 12,
-    sm: 6,
-    md: 5
-  }, __jsx(Card["a" /* default */], {
-    className: cardClasses
-  }, __jsx(link_default.a, {
-    href: "/her-product-upload",
-    as: '/her-product-upload'
-  }, __jsx(GridItem["a" /* default */], {
-    xs: 12,
-    sm: 12,
-    md: 7,
-    className: classes.itemGrid
-  }, __jsx("img", {
-    src: merch2_default.a,
-    alt: "...",
-    className: imageClasses
-  }), __jsx("h2", {
-    className: classes.title
-  }, "Hers")))))))), __jsx(Footer["a" /* default */], null));
-}
-
-/***/ }),
-
 /***/ "nybW":
 /***/ (function(module, exports) {
 
@@ -6087,235 +5596,6 @@ module.exports = require("@material-ui/icons/AccountCircleOutlined");
 /***/ (function(module, exports) {
 
 module.exports = require("@material-ui/core/Paper");
-
-/***/ }),
-
-/***/ "rx4r":
-/***/ (function(module, exports) {
-
-module.exports = require("@material-ui/icons/Create");
-
-/***/ }),
-
-/***/ "skcn":
-/***/ (function(module, exports) {
-
-module.exports = "/_next/static/images/christian-56633ed3f62f39d71f571374a6409e65.jpg";
-
-/***/ }),
-
-/***/ "tBFs":
-/***/ (function(module, exports) {
-
-module.exports = require("@material-ui/core/Input");
-
-/***/ }),
-
-/***/ "uYRW":
-/***/ (function(module, exports) {
-
-module.exports = require("@material-ui/icons/Camera");
-
-/***/ }),
-
-/***/ "um8N":
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-
-// EXPORTS
-__webpack_require__.d(__webpack_exports__, "a", function() { return /* binding */ CustomInput; });
-
-// EXTERNAL MODULE: external "react"
-var external_react_ = __webpack_require__("cDcd");
-var external_react_default = /*#__PURE__*/__webpack_require__.n(external_react_);
-
-// EXTERNAL MODULE: external "classnames"
-var external_classnames_ = __webpack_require__("K2gz");
-var external_classnames_default = /*#__PURE__*/__webpack_require__.n(external_classnames_);
-
-// EXTERNAL MODULE: external "@material-ui/core/styles"
-var styles_ = __webpack_require__("9Pu4");
-
-// EXTERNAL MODULE: external "@material-ui/core/FormControl"
-var FormControl_ = __webpack_require__("lWoh");
-var FormControl_default = /*#__PURE__*/__webpack_require__.n(FormControl_);
-
-// EXTERNAL MODULE: external "@material-ui/core/InputLabel"
-var InputLabel_ = __webpack_require__("zOcm");
-var InputLabel_default = /*#__PURE__*/__webpack_require__.n(InputLabel_);
-
-// EXTERNAL MODULE: external "@material-ui/core/Input"
-var Input_ = __webpack_require__("tBFs");
-var Input_default = /*#__PURE__*/__webpack_require__.n(Input_);
-
-// EXTERNAL MODULE: ./assets/jss/nextjs-material-kit.js
-var nextjs_material_kit = __webpack_require__("eDSW");
-
-// CONCATENATED MODULE: ./assets/jss/nextjs-material-kit/components/customInputStyle.js
-function ownKeys(object, enumerableOnly) { var keys = Object.keys(object); if (Object.getOwnPropertySymbols) { var symbols = Object.getOwnPropertySymbols(object); if (enumerableOnly) symbols = symbols.filter(function (sym) { return Object.getOwnPropertyDescriptor(object, sym).enumerable; }); keys.push.apply(keys, symbols); } return keys; }
-
-function _objectSpread(target) { for (var i = 1; i < arguments.length; i++) { var source = arguments[i] != null ? arguments[i] : {}; if (i % 2) { ownKeys(Object(source), true).forEach(function (key) { _defineProperty(target, key, source[key]); }); } else if (Object.getOwnPropertyDescriptors) { Object.defineProperties(target, Object.getOwnPropertyDescriptors(source)); } else { ownKeys(Object(source)).forEach(function (key) { Object.defineProperty(target, key, Object.getOwnPropertyDescriptor(source, key)); }); } } return target; }
-
-function _defineProperty(obj, key, value) { if (key in obj) { Object.defineProperty(obj, key, { value: value, enumerable: true, configurable: true, writable: true }); } else { obj[key] = value; } return obj; }
-
-
-const customInputStyle = {
-  disabled: {
-    "&:before": {
-      borderColor: "transparent !important"
-    }
-  },
-  underline: {
-    "&:hover:not($disabled):before,&:before": {
-      borderColor: "#D2D2D2 !important",
-      borderWidth: "1px !important"
-    },
-    "&:after": {
-      borderColor: nextjs_material_kit["p" /* primaryColor */]
-    }
-  },
-  underlineError: {
-    "&:after": {
-      borderColor: nextjs_material_kit["f" /* dangerColor */]
-    }
-  },
-  underlineSuccess: {
-    "&:after": {
-      borderColor: nextjs_material_kit["u" /* successColor */]
-    }
-  },
-  whiteUnderline: {
-    "&:hover:not($disabled):before,&:before": {
-      borderColor: "#FFFFFF"
-    },
-    "&:after": {
-      borderColor: "#FFFFFF"
-    }
-  },
-  labelRoot: _objectSpread(_objectSpread({}, nextjs_material_kit["g" /* defaultFont */]), {}, {
-    color: "#AAAAAA !important",
-    fontWeight: "400",
-    fontSize: "14px",
-    lineHeight: "1.42857",
-    top: "10px",
-    letterSpacing: "unset",
-    "& + $underline": {
-      marginTop: "0px"
-    }
-  }),
-  labelRootError: {
-    color: nextjs_material_kit["f" /* dangerColor */] + " !important"
-  },
-  labelRootSuccess: {
-    color: nextjs_material_kit["u" /* successColor */] + " !important"
-  },
-  formControl: {
-    margin: "0 0 17px 0",
-    paddingTop: "27px",
-    position: "relative",
-    "& svg,& .fab,& .far,& .fal,& .fas,& .material-icons": {
-      color: "#495057"
-    }
-  },
-  input: {
-    color: "#495057",
-    height: "unset",
-    "&,&::placeholder": {
-      fontSize: "14px",
-      fontFamily: '"Roboto", "Helvetica", "Arial", sans-serif',
-      fontWeight: "400",
-      lineHeight: "1.42857",
-      opacity: "1"
-    },
-    "&::placeholder": {
-      color: "#AAAAAA"
-    }
-  },
-  whiteInput: {
-    "&,&::placeholder": {
-      color: "#FFFFFF",
-      opacity: "1"
-    }
-  }
-};
-/* harmony default export */ var components_customInputStyle = (customInputStyle);
-// CONCATENATED MODULE: ./components/CustomInput/CustomInput.js
-var __jsx = external_react_default.a.createElement;
-
-function _extends() { _extends = Object.assign || function (target) { for (var i = 1; i < arguments.length; i++) { var source = arguments[i]; for (var key in source) { if (Object.prototype.hasOwnProperty.call(source, key)) { target[key] = source[key]; } } } return target; }; return _extends.apply(this, arguments); }
-
- // nodejs library to set properties for components
-
-// nodejs library that concatenates classes
- // @material-ui/core components
-
-
-
-
-
-
-const useStyles = Object(styles_["makeStyles"])(components_customInputStyle);
-function CustomInput(props) {
-  const classes = useStyles();
-  const {
-    formControlProps,
-    labelText,
-    id,
-    labelProps,
-    inputProps,
-    error,
-    white,
-    inputRootCustomClasses,
-    success
-  } = props;
-  const labelClasses = external_classnames_default()({
-    [" " + classes.labelRootError]: error,
-    [" " + classes.labelRootSuccess]: success && !error
-  });
-  const underlineClasses = external_classnames_default()({
-    [classes.underlineError]: error,
-    [classes.underlineSuccess]: success && !error,
-    [classes.underline]: true,
-    [classes.whiteUnderline]: white
-  });
-  const marginTop = external_classnames_default()({
-    [inputRootCustomClasses]: inputRootCustomClasses !== undefined
-  });
-  const inputClasses = external_classnames_default()({
-    [classes.input]: true,
-    [classes.whiteInput]: white
-  });
-  var formControlClasses;
-
-  if (formControlProps !== undefined) {
-    formControlClasses = external_classnames_default()(formControlProps.className, classes.formControl);
-  } else {
-    formControlClasses = classes.formControl;
-  }
-
-  return __jsx(FormControl_default.a, _extends({}, formControlProps, {
-    className: formControlClasses
-  }), labelText !== undefined ? __jsx(InputLabel_default.a, _extends({
-    className: classes.labelRoot + " " + labelClasses,
-    htmlFor: id
-  }, labelProps), labelText) : null, __jsx(Input_default.a, _extends({
-    classes: {
-      input: inputClasses,
-      root: marginTop,
-      disabled: classes.disabled,
-      underline: underlineClasses
-    },
-    id: id
-  }, inputProps)));
-}
-
-/***/ }),
-
-/***/ "vE/t":
-/***/ (function(module, exports) {
-
-module.exports = "/_next/static/images/cynthia-del-rio-9813593cc577a319a2201342ef0fb237.jpg";
 
 /***/ }),
 
@@ -6432,38 +5712,10 @@ exports.__esModule=true;exports.normalizePathSep=normalizePathSep;exports.denorm
 
 /***/ }),
 
-/***/ "wy5I":
-/***/ (function(module, exports) {
-
-module.exports = "/_next/static/images/olu-eletu-4112cbc1477d9e149033c5df66087e16.jpg";
-
-/***/ }),
-
-/***/ "x0Xe":
-/***/ (function(module, exports) {
-
-module.exports = "/_next/static/images/clem-onojegaw-c058841b1dd64e5f79c6348b24cfb78d.jpg";
-
-/***/ }),
-
 /***/ "x54t":
 /***/ (function(module, exports) {
 
 module.exports = require("@material-ui/core/MenuItem");
-
-/***/ }),
-
-/***/ "xPFQ":
-/***/ (function(module, exports) {
-
-module.exports = "/_next/static/images/studio-2-76e2987ed95634136dd22d4d9e1009a7.jpg";
-
-/***/ }),
-
-/***/ "xljU":
-/***/ (function(module, exports) {
-
-module.exports = require("@material-ui/icons/Palette");
 
 /***/ }),
 
@@ -6501,20 +5753,6 @@ try {
 
 const fire = firebase__WEBPACK_IMPORTED_MODULE_0___default.a;
 /* harmony default export */ __webpack_exports__["a"] = (fire);
-
-/***/ }),
-
-/***/ "zEVw":
-/***/ (function(module, exports) {
-
-module.exports = "/_next/static/images/studio-1-ae0150c08dbcc95e4f50458e02e5bd5c.jpg";
-
-/***/ }),
-
-/***/ "zOcm":
-/***/ (function(module, exports) {
-
-module.exports = require("@material-ui/core/InputLabel");
 
 /***/ })
 
