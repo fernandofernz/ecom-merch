@@ -34,8 +34,8 @@ import beach1 from 'assets/img/beach1.jpg';
 import beach2 from 'assets/img/beach2.jpg';
 import beach3 from 'assets/img/beach3.jpg';
 
-import merch2 from '../assets/img/merch2.jpg';
-import merch3 from '../assets/img/merch3.jpg';
+import merch2 from 'assets/img/merch2.jpg';
+import merch3 from 'assets/img/merch3.jpg';
 
 import studio1 from "assets/img/examples/studio-1.jpg";
 import studio2 from "assets/img/examples/studio-2.jpg";
@@ -111,7 +111,7 @@ export default function ProfilePage(props) {
                         <GridItem xs={12} sm={6} md={5} >
                             <Card className={cardClasses}>
 
-                                <Link href="/hisProductUpload" as={'/hisProductUpload'}>
+                                <Link href="/his-product-upload" as={'/his-product-upload'}>
                                     <GridItem xs={12} sm={12} md={7} className={classes.itemGrid}>
 
                                         <img src={merch3} alt="..." className={imageClasses} />
@@ -126,7 +126,7 @@ export default function ProfilePage(props) {
                         <GridItem xs={12} sm={6} md={5} >
                             <Card className={cardClasses}>
 
-                                <Link href="/herProductUpload" as={'/herProductUpload'}>
+                                <Link href="/her-product-upload" as={'/her-product-upload'}>
                                     <GridItem xs={12} sm={12} md={7} className={classes.itemGrid}>
                                         <img src={merch2} alt="..." className={imageClasses} />
                                         <h2 className={classes.title}>Hers</h2>
