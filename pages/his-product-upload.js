@@ -73,7 +73,7 @@ export default function hisProductUploadPage(props) {
             setNotification('')
         }, 2000);
         // Router PUSH to warehouse
-        router.push("/hisproducts");
+        router.push("/the-only-ones-left");
     }
 
     setTimeout(function () {
