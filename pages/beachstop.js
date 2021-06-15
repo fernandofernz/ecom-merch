@@ -30,7 +30,7 @@ import CustomInput from "components/CustomInput/CustomInput.js";
 import InputAdornment from "@material-ui/core/InputAdornment";
 
 import profile from "assets/img/faces/christian.jpg";
-import beach1 from 'assets/img/beach3.jpg';
+import beach1 from 'assets/img/beach5.jpg';
 import beach2 from 'assets/img/beach2.jpg';
 import beach3 from 'assets/img/beach3.jpg';
 
@@ -100,11 +100,11 @@ export default function ProfilePage(props) {
                         <GridItem xs={12} sm={6} md={5} >
                             <Card className={cardClasses}>
 
-                                <Link href="/his-product-upload" as={'/his-product-upload'}>
+                                <Link href="/the-only-ones-left" as={'/the-only-ones-left'}>
                                     <GridItem xs={12} sm={12} md={7} className={classes.itemGrid}>
 
                                         <img src={merch3} alt="..." className={imageClasses} />
-                                        <h2 className={classes.title}>His</h2>
+                                        <h2 className={classes.title}>The Only Ones Left</h2>
                                     </GridItem>
                                 </Link>
 
@@ -115,10 +115,10 @@ export default function ProfilePage(props) {
                         <GridItem xs={12} sm={6} md={5} >
                             <Card className={cardClasses}>
 
-                                <Link href="/her-product-upload" as={'/her-product-upload'}>
+                                <Link href="/aloha-angelz" as={'/aloha-angelz'}>
                                     <GridItem xs={12} sm={12} md={7} className={classes.itemGrid}>
                                         <img src={merch2} alt="..." className={imageClasses} />
-                                        <h2 className={classes.title}>Hers</h2>
+                                        <h2 className={classes.title}>Aloha Angelz</h2>
                                     </GridItem>
                                 </Link>
 
@@ -135,7 +135,7 @@ export default function ProfilePage(props) {
 
 
 
-            <Footer />
+            {/* <Footer /> */}
         </div>
     );
 }
