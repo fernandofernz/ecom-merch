@@ -34,8 +34,10 @@ import beach1 from 'assets/img/beach5.jpg';
 import beach2 from 'assets/img/beach2.jpg';
 import beach3 from 'assets/img/beach3.jpg';
 
-import merch2 from 'assets/img/merch2.jpg';
-import merch3 from 'assets/img/merch3.jpg';
+import merch2 from '../assets/img/OnlyOnesLeft/alohaAngelz.jpg';
+import merch1 from '../assets/img/OnlyOnesLeft/hersWhiteShirt-female.jpg';
+import imgHis from '../assets/img/OnlyOnesLeft/theOnlyLeftLogo.jpg';
+import imgHers from '../assets/img/OnlyOnesLeft/alohaAngelzLogo.jpg';
 
 // import image from "../assets/img/beach1.jpg";
 import Link from 'next/link';
@@ -57,7 +59,22 @@ export default function ProfilePage(props) {
     const imageClasses = classNames(
         classes.imgRaised,
         classes.imgFluid,
-        classes.imageCard
+        classes.imageCard,
+
+    );
+    const imageLogoClasses = classNames(
+        classes.imgRaised,
+        classes.imgFluid,
+        classes.imageCard,
+        classes.imgRoundedCircle,
+        classes.logoImage
+    );
+    const imageLogoLeftClasses = classNames(
+        classes.imgRaised,
+        classes.imgFluid,
+        classes.imageCard,
+        classes.imgRoundedCircle,
+        classes.logoLefImage
     );
 
     const cardClasses = classNames(classes[cardAnimaton], classes.card);
@@ -103,8 +120,9 @@ export default function ProfilePage(props) {
                                 <Link href="/the-only-ones-left" as={'/the-only-ones-left'}>
                                     <GridItem xs={12} sm={12} md={7} className={classes.itemGrid}>
 
-                                        <img src={merch3} alt="..." className={imageClasses} />
-                                        <h2 className={classes.title}>The Only Ones Left</h2>
+                                        <img src={merch1} alt="..." className={imageClasses} />
+                                        <img src={imgHis} alt="..." className={imageLogoClasses} />
+                                        <h3 className={classes.title}>The Only Ones Left</h3>
                                     </GridItem>
                                 </Link>
 
@@ -117,8 +135,10 @@ export default function ProfilePage(props) {
 
                                 <Link href="/aloha-angelz" as={'/aloha-angelz'}>
                                     <GridItem xs={12} sm={12} md={7} className={classes.itemGrid}>
+
                                         <img src={merch2} alt="..." className={imageClasses} />
-                                        <h2 className={classes.title}>Aloha Angelz</h2>
+                                        <img src={imgHers} alt="..." className={imageLogoLeftClasses} />
+                                        <h3 className={classes.title}>Aloha  Angelz</h3>
                                     </GridItem>
                                 </Link>
 

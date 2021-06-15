@@ -18,10 +18,12 @@ const beachStopPageStyle = {
     title: {
         ...title,
         marginBottom: "1rem",
-        marginTop: "30px",
+        marginTop: "-8rem",
         minHeight: "32px",
         textDecoration: "none",
-        textAlign: 'center'
+        textAlign: 'center',
+        transform: "translate3d(5rem, 0rem, 0)"
+
     },
     pageHeader: {
 
@@ -58,13 +60,23 @@ const beachStopPageStyle = {
         margin: "0"
     },
     card: {
-        background: 'rgba( 245, 251, 195, 0.20 )',
-        boxShadow: '0 8px 32px 0 rgba( 31, 38, 135, 0.37 )',
-        backdropFilter: 'blur( 7.5px )',
-        // -webkit-backdrop-filter: blur( 7.5px );
-        borderRadius: '10px',
-        border: '1px solid rgba( 255, 255, 255, 0.18 )',
+        display: "inline-block",
+        position: "relative",
+        width: "100%",
+        margin: "25px 0",
+        boxShadow: "0 1px 4px 0 rgba(0, 0, 0, 0.14)",
+        borderRadius: "10px",
+        color: "rgba(0, 0, 0, 0.87)",
+        background: "#fff",
         alignItems: "center",
+        verticalAlign: 'middle',
+        // background: 'rgba( 245, 251, 195, 0.20 )',
+        // boxShadow: '0 8px 32px 0 rgba( 31, 38, 135, 0.37 )',
+        // backdropFilter: 'blur( 7.5px )',
+        // // -webkit-backdrop-filter: blur( 7.5px );
+        // borderRadius: '10px',
+        // border: '1px solid rgba( 255, 255, 255, 0.18 )',
+
     },
     cardHeader: {
         width: "auto",
@@ -92,7 +104,7 @@ const beachStopPageStyle = {
         marginRight: "3px"
     },
     imageCard: {
-        paddingTop: "1rem",
+        transform: "translate3d(5rem, -2rem, 0)"
     },
     divider: {
         marginTop: "30px",
@@ -112,6 +124,14 @@ const beachStopPageStyle = {
     },
     inputIconsColor: {
         color: "#495057"
+    },
+    logoImage: {
+        transform: "translate3d(-2rem, -3rem, 0)",
+        width: '100px',
+    },
+    logoLefImage: {
+        transform: "translate3d(-2rem, -3rem, 0)",
+        width: '100px',
     }
 };
 

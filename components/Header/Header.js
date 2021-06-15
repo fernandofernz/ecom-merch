@@ -16,6 +16,7 @@ import Drawer from "@material-ui/core/Drawer";
 import Menu from "@material-ui/icons/Menu";
 // core components
 import styles from "assets/jss/nextjs-material-kit/components/headerStyle.js";
+import imgHis from '../../assets/img/OnlyOnesLeft/theOnlyLeftLogo.jpg';
 
 const useStyles = makeStyles(styles);
 
@@ -74,8 +75,18 @@ export default function Header(props) {
     [classes.absolute]: absolute,
     [classes.fixed]: fixed
   });
+  const imageLogoClasses = classNames(
+    classes.imgRaised,
+    classes.imgFluid,
+    classes.imageCard,
+    classes.imgRoundedCircle,
+    classes.logoImage
+  );
+
+
   const brandComponent = (
     <Link href="/warehouse" as="/warehouse">
+      {/* <img src={imgHis} alt="..." className={imageLogoClasses} /> */}
       <Button className={classes.title}><h1>{brand}</h1></Button>
     </Link>
   );

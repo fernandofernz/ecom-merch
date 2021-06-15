@@ -79,7 +79,7 @@ export default function herProductsPage(props) {
                         <GridItem xs={12} sm={12} md={6}>
                             <h1 className={classes.title}>Check out our products for men</h1>
                             <h4>
-                                We have a vast selection and variety of products at discount prices. Explore our online warehouse or visit our storefront.
+                                Bikini Selection Coming Soon ...
               </h4>
                             <br />
 
