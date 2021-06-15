@@ -64,7 +64,7 @@ export default function herProductsPage(props) {
             <Header
                 color="transparent"
                 routes={dashboardRoutes}
-                brand="The Other Ones Left"
+                brand="Aloha Angelz"
                 rightLinks={<HeaderLinks />}
                 absolute
                 // changeColorOnScroll={{
