@@ -77,9 +77,9 @@ export default function herProductsPage(props) {
                 <div className={classes.container}>
                     <GridContainer>
                         <GridItem xs={12} sm={12} md={6}>
-                            <h1 className={classes.title}>Check out our products for men</h1>
+                            <h1 className={classes.title}>Bikini Selection Coming Soon ...</h1>
                             <h4>
-                                Bikini Selection Coming Soon ...
+                                Check out our upcoming products!
               </h4>
                             <br />
 
