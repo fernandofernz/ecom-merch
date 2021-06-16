@@ -67,13 +67,14 @@ export default function hisProductsPage(props) {
                 brand="Only Ones Left"
                 rightLinks={<HeaderLinks />}
                 absolute
+                his
                 // changeColorOnScroll={{
                 //     height: 500,
                 //     color: "transparent"
                 // }}
                 {...rest}
             />
-            <Parallax filter responsive image={require("../assets/img/beach1.jpg")}>
+            <Parallax filter responsive image={require("../assets/img/OnlyOnesLeft/o1sLeft.jpg")}>
                 <div className={classes.container}>
                     <GridContainer>
                         <GridItem xs={12} sm={12} md={6}>

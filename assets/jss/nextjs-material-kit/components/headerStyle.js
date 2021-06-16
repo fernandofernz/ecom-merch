@@ -12,6 +12,7 @@ import {
   boxShadow,
   drawerWidth
 } from "assets/jss/nextjs-material-kit.js";
+import imagesStyle from "../../nextjs-material-kit/imagesStyles";
 
 const headerStyle = {
   appBar: {
@@ -32,6 +33,7 @@ const headerStyle = {
     position: "relative",
     zIndex: "unset"
   },
+  ...imagesStyle,
   absolute: {
     position: "absolute",
     zIndex: "1100"

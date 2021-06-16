@@ -26,7 +26,7 @@ const beachStopPageStyle = {
 
     },
     pageHeader: {
-
+        minHeight: "100vh",
         height: "auto",
         display: "inherit",
         position: "relative",

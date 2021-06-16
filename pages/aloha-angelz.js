@@ -67,6 +67,7 @@ export default function herProductsPage(props) {
                 brand="Aloha Angelz"
                 rightLinks={<HeaderLinks />}
                 absolute
+                hers
                 // changeColorOnScroll={{
                 //     height: 500,
                 //     color: "transparent"

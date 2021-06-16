@@ -151,11 +151,11 @@ export default function ProfilePage(props) {
                 </div>
 
 
+                <Footer whiteFont />
             </div>
 
 
 
-            {/* <Footer /> */}
         </div>
     );
 }

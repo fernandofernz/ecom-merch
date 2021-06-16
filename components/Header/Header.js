@@ -15,8 +15,11 @@ import Drawer from "@material-ui/core/Drawer";
 // @material-ui/icons
 import Menu from "@material-ui/icons/Menu";
 // core components
-import styles from "assets/jss/nextjs-material-kit/components/headerStyle.js";
+import styles from "../../assets/jss/nextjs-material-kit/components/headerStyle";
+
+
 import imgHis from '../../assets/img/OnlyOnesLeft/theOnlyLeftLogo.jpg';
+import imgHers from '../../assets/img/OnlyOnesLeft/alohaAngelzLogo.jpg';
 
 const useStyles = makeStyles(styles);
 
@@ -68,7 +71,7 @@ export default function Header(props) {
         .classList.remove(classes[changeColorOnScroll.color]);
     }
   };
-  const { color, rightLinks, leftLinks, brand, fixed, absolute } = props;
+  const { color, rightLinks, leftLinks, brand, fixed, absolute, his, hers } = props;
   const appBarClasses = classNames({
     [classes.appBar]: true,
     [classes[color]]: color,
@@ -86,8 +89,16 @@ export default function Header(props) {
 
   const brandComponent = (
     <Link href="/warehouse" as="/warehouse">
-      {/* <img src={imgHis} alt="..." className={imageLogoClasses} /> */}
-      <Button className={classes.title}><h1>{brand}</h1></Button>
+      <>
+        {/* <img src={imgHis} alt="..." className={imageLogoClasses} /> */}
+        { his == true ?
+          <img src={imgHis} alt="..." className={imageLogoClasses} /> :
+          hers == true ?
+            <img src={imgHers} alt="..." className={imageLogoClasses} /> :
+            <Button className={classes.title}><h1>{brand}</h1></Button>
+        }
+
+      </>
     </Link>
   );
   return (
@@ -157,6 +168,8 @@ Header.propTypes = {
   brand: PropTypes.string,
   fixed: PropTypes.bool,
   absolute: PropTypes.bool,
+  his: PropTypes.bool,
+  hers: PropTypes.bool,
   // this will cause the sidebar to change the color from
   // props.color (see above) to changeColorOnScroll.color
   // when the window.pageYOffset is heigher or equal to
