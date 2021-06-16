@@ -2,5 +2,7 @@
   "/_app": "pages/_app.js",
   "/_document": "pages/_document.js",
   "/_error": "pages/_error.js",
-  "/the-only-ones-left": "pages/the-only-ones-left.js"
+  "/the-only-ones-left": "pages/the-only-ones-left.js",
+  "/aloha-angelz": "pages/aloha-angelz.js",
+  "/beachstop": "pages/beachstop.js"
 }

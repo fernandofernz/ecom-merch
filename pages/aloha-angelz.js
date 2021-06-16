@@ -93,7 +93,7 @@ export default function herProductsPage(props) {
                         {/* <h2 className={classes.title}>Check out or warehouse</h2> */}
 
 
-                        <CardHeader color="primary" className={classes.mavaCardHeader}>
+                        <CardHeader color="primary" className={classes.cardHeader}>
 
                             <h3 className={classes.cardTitle}>Online Gallery</h3>
                             <ArrowDropDownCircleIcon className={classes.socialIcons}>lol</ArrowDropDownCircleIcon>

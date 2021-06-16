@@ -68,8 +68,6 @@ const beachStopPageStyle = {
         borderRadius: "10px",
         color: "rgba(0, 0, 0, 0.87)",
         background: "#fff",
-        alignItems: "center",
-        verticalAlign: 'middle',
         // background: 'rgba( 245, 251, 195, 0.20 )',
         // boxShadow: '0 8px 32px 0 rgba( 31, 38, 135, 0.37 )',
         // backdropFilter: 'blur( 7.5px )',

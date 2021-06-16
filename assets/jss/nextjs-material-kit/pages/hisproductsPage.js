@@ -91,6 +91,7 @@ const landingPageStyle = {
         marginTop: "-100px",
         padding: "20px 0",
         marginBottom: "15px"
+
     },
     margin5: {
         margin: "5px"

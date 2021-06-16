@@ -55,6 +55,8 @@ const signupPageStyle = {
     marginTop: "-40px",
     padding: "20px 0",
     marginBottom: "15px"
+
+
   },
   socialIcons: {
     maxWidth: "24px",
