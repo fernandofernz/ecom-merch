@@ -120,9 +120,8 @@ export default function herProductsPage(props) {
                                             </h4>
                                             <CardBody>
                                                 <p className={classes.description}>
-                                                    {product.productDescription} <a href="#pablo">links</a> for people to be able to
-              follow them outside the site.
-            </p>
+                                                    {product.productDescription}
+                                                </p>
                                             </CardBody>
                                             <CardFooter className={classes.justifyCenter}>
                                                 <Button
