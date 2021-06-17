@@ -30,16 +30,6 @@
       "static/chunks/webpack.js",
       "static/chunks/main.js",
       "static/chunks/pages/aloha-angelz.js"
-    ],
-    "/beachstop": [
-      "static/chunks/webpack.js",
-      "static/chunks/main.js",
-      "static/chunks/pages/beachstop.js"
-    ],
-    "/the-only-ones-left": [
-      "static/chunks/webpack.js",
-      "static/chunks/main.js",
-      "static/chunks/pages/the-only-ones-left.js"
     ]
   },
   "ampFirstPages": []

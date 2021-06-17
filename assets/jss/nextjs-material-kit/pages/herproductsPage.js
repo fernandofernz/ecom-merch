@@ -46,7 +46,8 @@ const landingPageStyle = {
         marginBottom: "1rem",
         marginTop: "30px",
         minHeight: "32px",
-        textDecoration: "none"
+        textDecoration: "none",
+        color: 'white'
     },
     ...imagesStyle,
     itemGrid: {
