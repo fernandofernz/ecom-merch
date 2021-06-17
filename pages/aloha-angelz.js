@@ -112,7 +112,7 @@ export default function herProductsPage(props) {
                                             </GridItem>
                                             <h4 className={classes.cardTitle}>
                                                 <Link href="/product/[id]" as={'/product/' + product.id}>
-                                                    <a itemProp="products">{product.productName}</a>
+                                                    <a className={classes.cardTitle} itemProp="products">{product.productName}</a>
                                                 </Link>
                                                 <br />
 

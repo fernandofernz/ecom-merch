@@ -78,7 +78,7 @@ export default class MyApp extends App {
     return (
       <React.Fragment>
         <Head>
-          <title>O1SLeft Aloha Angelz</title>
+          <title>O1SLeft-AlohaAngelz</title>
         </Head>
         <Component {...pageProps} />
       </React.Fragment>
