@@ -131,7 +131,7 @@ export default function herProductsPage(props) {
                                                     className={classes.margin5}
                                                 >
 
-                                                    <i className={classes.socials + " far fa-heart"} />
+                                                    {/* <i className={classes.socials + " far fa-heart"} /> */}
                                                     {/* <p className={classes.description}> Add to library</p> */}
                                                 </Button>
                                             </CardFooter>
