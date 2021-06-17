@@ -26,10 +26,15 @@
       "static/chunks/main.js",
       "static/chunks/pages/_error.js"
     ],
-    "/aloha-angelz": [
+    "/beachstop": [
       "static/chunks/webpack.js",
       "static/chunks/main.js",
-      "static/chunks/pages/aloha-angelz.js"
+      "static/chunks/pages/beachstop.js"
+    ],
+    "/the-only-ones-left": [
+      "static/chunks/webpack.js",
+      "static/chunks/main.js",
+      "static/chunks/pages/the-only-ones-left.js"
     ]
   },
   "ampFirstPages": []
