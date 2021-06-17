@@ -132,7 +132,7 @@ export default function herProductsPage(props) {
                                                 >
 
                                                     <i className={classes.socials + " far fa-heart"} />
-                                                    <p className={classes.description}> Add to library</p>
+                                                    {/* <p className={classes.description}> Add to library</p> */}
                                                 </Button>
                                             </CardFooter>
                                         </Card>
